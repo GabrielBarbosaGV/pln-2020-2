@@ -1,0 +1,59 @@
+question;intent
+"Como usar lucros e reinvestir sem ser esmagado por impostos?";instruction
+"Como fazer boas escolhas de ações se 'resultados passados não são bons indicadores de sucesso futuro', e, se isso é verdade, não implica que 'análise fundamental' é irrelevante?";instruction
+"O que é Compra a Seco?";definition
+"Que eventos mais afetam os preços das ações?";explanation
+"Quais são os melhores recursos para aprender sobre investimento em títulos?";instruction
+"O que são ETFs?";definition
+"É melhor usar ETFs ou ações individuais?";comparison
+"O que são covered calls?";definition
+"Por que mais pessoas não usam covered calls?";explanation
+"Como manter proporções em um portfólio?";instruction
+"Quais são alguns bons investimentos em renda fixa?";explanation
+"Quais são as melhores rendas passivas para quem está começando a investir?";explanation
+"Qual é o passo a passo para investir na renda fixa?";instruction
+"Compensa investir grande quantidade em renda fixa?";explanation
+"Como investir em uma renda fixa?";instruction
+"O que são investimentos de renda fixa e variável?";comparison
+"Quanto dinheiro uma pessoa precisa conseguir investir para parar de trabalhar e viver apenas do rendimento de seus investimentos?";explanation
+"Qual é o melhor investimento para quem tem pouco dinheiro?";explanation
+"Se os melhores investimentos obtêm apenas 10-15% de rendimento por ano, como as pessoas ficam ricas ao investir?";explanation
+"É possível parar de trabalhar e viver de renda investindo R$ 2,5 milhões?";explanation
+"Que investimentos são, na verdade, apenas um desperdício de dinheiro?";explanation
+"Como fazer meu dinheiro render agora de maneira prática?";instruction
+"Qual o melhor método para não deixar o dinheiro parado a longo prazo? Mesmo que não tenha grande rendimento";instruction
+"O que devo fazer se tenho dinheiro a mais?";instruction
+"Quais são os tipos de investimentos?";explanation
+"O que aconteceu nos últimos dias que o xplg11 está caindo?";explanation
+"Alguém sabe o pq de DY do rbff11 tão altos?";explanation
+"Qual fundo eu deveria comprar?";instruction
+"Devo investir em fundos ou açoes?";instruction
+"Qual o melhor? XPLG11 or xpml11?";comparison
+"quais são os tipos de fundos?";definition
+"o que são fundos de lajes corporativas?";definition
+"o que são fundos de tijolos?";definition
+"o que são fundos de shoppings?";definition
+"qual a melhor época para comprar fundos logisticos?";instruction
+"o que são fundos de investimento?";definition
+"por que o preço do fundo hglg11 está caindo tanto?";explanation
+"qual o melhor fundo imobiliário atualmente?";instruction
+"qual o pior fundo imobiliário?";instruction
+"qual o preço médio do visc11?";instruction
+"por que o vilg11 não rende tanto quando xplg11?";comparison
+"o que é p/vp?";definition
+"o que é mais importante? dy ou p/vp?";explanation
+"o que é dividend yield?";definition
+"quanto o fundo xplg está pagando por cota?";explanation
+"qual o maior pagador de dividend yield atualmente?";comparison
+"qual o melhor p/vp atualmente?";comparison
+"quanto é possível ganhar investindo 1000 reais em xplg11?";explanation
+"quanto ganharia de dividendos investindo 3521 reais?";explanation
+"quanto cada cota de rbff11 rende por mês?";explanation
+"o que são fii?";explanation
+"quais os ativos do xplg11?";explanation
+"Investir em FIIs é arriscado?";explanation
+"O que é a taxa de administração?";definition
+"O que é o IFIX?";definition
+"O que é um Fundo de Papel?";definition
+"Quais os principais fatores que reduzem os rendimentos de um FII?";explanation
+"Quanto os FIIs pagam em média?";explanation
