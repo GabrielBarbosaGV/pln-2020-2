@@ -42,3 +42,68 @@ nlu:
     - voce eh humano?
     - o que vc eh?
     - o que voce eh?
+
+- intent: instruction
+  examples: |
+    - Agora é a hora da [renda fixa](fixed-income)?
+    - Quanto devo ter na [reserva de emergência](emergency-saving)?
+    - Qual o passo a passo para começar a [investir](invest)?
+    - Como ficar [rico](rich)?
+    - Como definir a minha [reserva de emergencia](emergency-saving)?
+    - O que é essencial para começar a [investir](invest)?
+    - Por que devemos guardar a [reserva de emergência](emergency-saving) na poupança?
+    - Quanto deixo guardado na [Reserva de emergencia](emergency-saving)?
+    - Por onde começar a [investir](invest)?
+    - Como usar a [rendar fixa](fixed-income)?
+    - O que precisamos saber para investir em [ações](stocks)?
+    - Como escolher boas empresas para comprar [acoes](stocks)?
+    - Como não falir investindo em [ação](stocks)?
+    - Como escolher boas [empresas](company) para [investir](invest)?
+    - Como verificar se uma [empresa](company) é boa para [investir](invest?
+    - Quais são os dados necessários para avaliar [empresas](company)?
+
+- intent: explanation
+  examples: |
+    - Posso perder tudo em [ações](stocks?
+    - É preciso ser [rico](rich) para investir?
+    - Para que as [bolsas de valores](marketplace) foram criadas?
+    - Como se livrar de [dívidas](debts)?
+    - Como superar as [dívidas](debts)?
+    - O que constitui a [reserva de emergência](emergency-saving)?
+    - Utilizar dinheiro da [reserva de emergencia](emergency-saving) é falta de planejamento?
+    - Por que não deixar a [reserva de emergência](emergency-saving) no [tesouro direto](direct-treasure)?
+    - Nunca mexo na reserva, para que colocar em [poupança](saving)?
+    - Como funciona a [renda fixa](fixed-income)?
+    - Quais são as utilidades para [renda fixa](fixed-income)?
+    - Por que [renda fixa](fixed-income) não produz renda?
+    - Por que [investir](invest) em [ações](stocks)?
+
+- intent: comparison
+  examples: |
+    - Qual a relação entre [risco](risks) e [retorno](return)?
+    - Qual a diferença de [preço](price) e [valor](value)?
+
+- intent: definition
+  examples: |
+    - O que é [trade](trade)?
+    - O que é [IPO](ipo)?
+    - O que são os [juros compostos](compound-interest)?
+    - O que é uma [dívida](debt)?
+    - O que é [reserva de emergência](emergency-saving)?
+    - O que é [liquidez](liquidity)?
+    - o que é a [Renda Fixa](fixed-income)?
+    - O que são [juros nominais](nominal-interest)?
+    - O que são [juros reais](real-interest)?
+    - O que é [tesouro direto](direct-treasure)?
+    - Quais os tipos de [tesouro direto](direct-treasure)?
+    - Quais os tipos de [renda fixa](fixed-income)?
+    - O que é [ON]("entity": "stocks", group: "ordinary")?
+    - O que são [ações ordinárias]("entity": "stocks", group: "ordinary")?
+    - O que é [PN]("entity": "stocks", group: "preferred")?
+    - O que são [ações preferenciais]("entity": "stocks", group: "preferred")?
+    - O que é [UNIT]("entity": "stocks", group: "unit")?
+    - O que são [ações unit]("entity": "stocks", group: "unit")?
+    - O que é geração de caixa [EBITDA](ebitda)?
+    - O que é [fluxo de caixa livre](free-cash-flow)?
+    - O que são os [fundos de investimento](fii)?
+    - O que são os [fundos de investimento em imovéis]("entity": "fii", "group": "real-estate")?

@@ -7,6 +7,10 @@ intents:
   - mood_unhappy
   - bot_challenge
   - out_of_scope
+  - instruction
+  - explanation
+  - comparison
+  - definition
 
 responses:
   utter_greet:
