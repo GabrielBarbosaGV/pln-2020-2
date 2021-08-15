@@ -3,32 +3,39 @@ version: "2.0"
 intents:
   - greet
   - goodbye
-  - affirm
-  - deny
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - out_of_scope
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
-
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-  - text: "Did that help you?"
+  - text: "Oi, como vai você?"
 
   utter_happy:
-  - text: "Great, carry on!"
+  - text: "Que ótimo! E você vai ficar ainda mais feliz quando alcançar a sua liberdade financeira e eu estou aqui para lhe auxiliar nisso: respondendo duvidas iniciais sobre como começar a investir, renda fixa ou variável, reserva de emergência e etc"
+
+  utter_unhappy:
+  - text: |
+      Você não está bem agora, mas tenho certeza que você vai ficar melhor em breve. 
+      E tenho certeza que você vai ficar melhor aidna quando quando alcançar a sua liberdade financeira
+      e eu estou aqui para lhe auxiliar nisso: respondendo duvidas iniciais sobre como começar a investir,
+      renda fixa ou variável, reserva de emergência e etc
 
   utter_goodbye:
-  - text: "Bye"
+  - text: "Até logo! Boa sorte na sua caminhada"
 
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  - text: "Meu nome não é João, sou um chatbot e eu estou aqui para lhe ajudar com duvidas básicas sobre investimentos: passo a passo inicial, o que é renda fixa e variavel e etc"
 
+  utter_out_of_scope:
+  - text: |-
+     Não entendi o que você falou. Por favor, seja mais especifico. Eu posso lhe ajudar com duvidas basica sobre investimento:
+     - Qual o passo a passo inicial?
+     - O que devo fazer para começar a investir?
+     - O que é renda fixa?
+     - O que é renda variavel?
+     - Etc
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
