@@ -52,7 +52,7 @@ stories:
       - place-question
       - emergency_saving
   - action: utter_where_put_emergency_saving
-  - - or:
+  - or:
     - intent: explanation
       entities:
       - usage
@@ -62,3 +62,37 @@ stories:
       - usage
       - emergency_saving
   - action: utter_usage_of_emergency_saving
+
+
+- story: about fixed income
+  steps:
+  - intent: definition
+    entities:
+    - fixed-income
+  - action: utter_what_fixed_income
+  - intent: explanation
+    entities:
+    - fixed-income
+    - start
+  - action: utter_why_start_on_fixed_income
+  - intent: explanation
+    entities:
+    - fixed-income
+    - produce
+    - income
+  - action: utter_why_fixed_income_doenst_produce_income
+  - or:
+    - intent: explanation
+      entities:
+      - fixed-income
+      - usage
+    - intent: instruction
+      entities:
+      - fixed-income
+      - usage
+  - action: utter_how_to_use_fixed_income
+  - intent: definition
+    entities:
+    - fixed-income
+    - kinds
+  - action: utter_kinds_fixed_income

@@ -47,13 +47,13 @@ nlu:
   examples: |
     - Agora é a hora da [renda fixa](fixed-income)?
     - [Quanto](amount) devo ter na [reserva de emergência](emergency-saving)?
-    - Qual o passo a passo para começar a [investir](invest)?
+    - Qual o passo a passo para [começar](start) a [investir](invest)?
     - Como ficar [rico](rich)?
     - Como definir a minha [reserva de emergencia](emergency-saving)?
-    - O que é essencial para começar a [investir](invest)?
+    - O que é essencial para [começar](start) a [investir](invest)?
     - Por que devemos guardar a [reserva de emergência](emergency-saving) na poupança?
     - [Quanto](amount) deixo guardado na [Reserva de emergencia](emergency-saving)?
-    - Por [onde](place-question) começar a [investir](invest)?
+    - Por [onde](place-question) [comecar](start) a [investir](invest)?
     - Como usar a [rendar fixa](fixed-income)?
     - Como [usar](usage) a [reserva de emergencia](emergency-saving)
     - O que precisamos saber para investir em [ações](stocks)?
@@ -63,7 +63,7 @@ nlu:
     - Como verificar se uma [empresa](company) é boa para [investir](invest)?
     - Quais são os dados necessários para avaliar [empresas](company)?
     - Qual passo a passo para [investir](invest)?
-    - Como começar a [investir](invest)?
+    - Como [comecar](start) a [investir](invest)?
     - [Quanto](amount) devo colocar?
     - [Quanto](amount) devo [investir](invest)?
     - Como se [livrar](end-up) de [dívidas](debts)?
@@ -76,6 +76,7 @@ nlu:
     - [Aonde](place-question) guardar a [Reserva de emergencia](emergency-saving)?
     - [ond](place-question) colocar a [Reserva de emergencia](emergency-saving)?
     - [ond](place-question) guardar a [Reserva de emergencia](emergency-saving)?
+    - Como [usar](usage) a [renda fixa](fixed-income)?
 
 - intent: explanation
   examples: |
@@ -87,9 +88,16 @@ nlu:
     - Por que não deixar a [reserva de emergência](emergency-saving) no [tesouro direto](direct-treasure)?
     - Nunca mexo na reserva, para que colocar em [poupança](saving)?
     - Como funciona a [renda fixa](fixed-income)?
-    - Quais são as utilidades para [renda fixa](fixed-income)?
-    - Por que [renda fixa](fixed-income) não produz renda?
+    - Quais são as [utilidades](usage) para [renda fixa](fixed-income)?
+    - Para que [serve](usage) a [renda fixa](fixed-income)?
+    - Pra que [serve](usage) a [renda fixa](fixed-income)?
+    - p q [serve](usage) a [renda fixa](fixed-income)?
+    - Por que [renda fixa](fixed-income) não [produz](produce) [renda](income)?
+    - pq [renda fixa](fixed-income) n [produz](produce) [renda](income)?
+    - pq [renda fixa](fixed-income) ñ [produz](produce) [renda](income)?
+    - Por que [renda fixa](fixed-income) não [produz](produce) [renda](income)?
     - Por que [investir](invest) em [ações](stocks)?
+    - Por que [começar](start) a [investir](invest) em [renda fixa](fixed-income)?
 
 - intent: comparison
   examples: |
@@ -122,3 +130,11 @@ nlu:
     - O que é [fluxo de caixa livre](free-cash-flow)?
     - O que são os [fundos de investimento](fii)?
     - O que são os [fundos de investimento em imovéis]("entity": "fii", "group": "real-estate")?
+    - O que é a taxa [SELIC](selic)?
+    - o que é [selic](selic)?
+    - O que é a taxa [cdi](cdi)?
+    - o que é [CDI](cdi)?
+    - [tipos](kinds) de [renda fixa](fixed-income?
+    - quais os [tipo](kinds) de [renda fixa](fixed-income)?
+    - Quais são os [tipos](kinds) de [renda fixa](fixed-income)?
+    - q os [tipos](kinds) de [renda fixa](fixed-income)?

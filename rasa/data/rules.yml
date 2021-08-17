@@ -24,3 +24,24 @@ rules:
     - invest
   - action: utter_start_to_invest
 
+- rule: what cdi
+  steps:
+  - intent: definition
+    entities:
+    - cdi
+  - action: utter_what_cdi
+
+- rule: what selic
+  steps:
+  - intent: definition
+    entities:
+    - selic
+  - action: utter_what_cdi
+- rule: what selic
+  steps:
+  - intent: explanation
+    entities:
+    - fixed-income
+    - produce
+    - income
+  - action: utter_why_fixed_income_doenst_produce_income
