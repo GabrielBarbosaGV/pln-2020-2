@@ -1,0 +1,10 @@
+[
+  {
+    "text": "tou bem e vc",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.48733922839164734
+    }
+  }
+]

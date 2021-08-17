@@ -26,6 +26,12 @@ nlu:
     - to otimo
     - to me sentindo otimo
     - estou bem e você?
+    - bem
+    - bom
+    - tou bem e vc
+    - vou bem
+    - vou muito bem e vc
+    - vo bem
 
 - intent: mood_unhappy
   examples: |
@@ -35,6 +41,12 @@ nlu:
     - tou muito triste
     - não tou me sentindo bem
     - não estou me sentindo bem
+    - n tou bem n
+    - to bem n
+    - n to bem
+    - não estou bem
+    - não vou bem
+    - n vou bem
 
 - intent: bot_challenge
   examples: |

@@ -1,0 +1,23 @@
+version: "2.0"
+stories:
+- story: emergency saving path 1 (/home/rlsma/Workspace/PLN/pln-2020-2/rasa/tests/test_stories.yml)
+  steps:
+  - intent: definition
+    entities:
+    - emergency-saving: reserva de emergencia
+  - action: utter_what_emergency_saving
+  - intent: instruction
+    entities:
+    - amount: Quanto
+    - emergency-saving: reserva de emergencia
+  - action: utter_amount_on_emergency_saving
+  - intent: instruction
+    entities:
+    - place-question: Onde
+    - emergency-saving: reserva de emergencia
+  - action: utter_where_put_emergency_saving
+  - intent: instruction
+    entities:
+    - usage: utilizar
+    - emergency-saving: reserva de emergencia
+  - action: utter_usage_of_emergency_saving  # predicted: action_unlikely_intent

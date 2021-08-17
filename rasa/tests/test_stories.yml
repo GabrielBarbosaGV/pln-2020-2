@@ -1,91 +1,77 @@
-#### This file contains tests to evaluate that your bot behaves as expected.
-#### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
+version: "2.0"
 
 stories:
 - story: happy path 1
   steps:
   - user: |
-      hello there!
+      oi
     intent: greet
   - action: utter_greet
   - user: |
-      amazing
+      Tou bem e vc
     intent: mood_great
   - action: utter_happy
 
-- story: happy path 2
+- story: unhappy path 1
   steps:
   - user: |
-      hello there!
+      oi
     intent: greet
   - action: utter_greet
   - user: |
-      amazing
-    intent: mood_great
-  - action: utter_happy
-  - user: |
-      bye-bye!
-    intent: goodbye
-  - action: utter_goodbye
-
-- story: sad path 1
-  steps:
-  - user: |
-      hello
-    intent: greet
-  - action: utter_greet
-  - user: |
-      not good
+      não tou bem
     intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - user: |
-      yes
-    intent: affirm
-  - action: utter_happy
+  - action: utter_unhappy
 
-- story: sad path 2
+- story: debts path 1
   steps:
   - user: |
-      hello
-    intent: greet
-  - action: utter_greet
+      O que são [dividas](debts)?
+    intent: definition
+  - action: utter_what_debt
   - user: |
-      not good
-    intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - user: |
-      not really
-    intent: deny
-  - action: utter_goodbye
+      Como posso [superar](end-up) as [dividas](debts)?
+    intent: instruction
+  - action: utter_end_up_debt
 
-- story: sad path 3
+- story: emergency saving path 1
   steps:
   - user: |
-      hi
-    intent: greet
-  - action: utter_greet
+      O que é a [reserva de emergencia](emergency-saving)?
+    intent: definition
+  - action: utter_what_emergency_saving
   - user: |
-      very terrible
-    intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
+      [Quanto](amount) devo ter na [reserva de emergencia](emergency-saving)?
+    intent: instruction
+  - action: utter_amount_on_emergency_saving
   - user: |
-      no
-    intent: deny
-  - action: utter_goodbye
+      [Onde](place-question) guardo a [reserva de emergencia](emergency-saving)?
+    intent: instruction
+  - action: utter_where_put_emergency_saving
+  - user: |
+      Como [utilizar](usage) a [reserva de emergencia](emergency-saving)?
+    intent: instruction
+  - action: utter_usage_of_emergency_saving
 
-- story: say goodbye
+- story: about fixed income path 1
   steps:
   - user: |
-      bye-bye!
-    intent: goodbye
-  - action: utter_goodbye
-
-- story: bot challenge
-  steps:
+      O que é a [renda fixa](fixed-income)?
+    intent: definition
+  - action: utter_what_fixed_income
   - user: |
-      are you a bot?
-    intent: bot_challenge
-  - action: utter_iamabot
+      Pq [começar](start) a investir na [renda fixa](fixed-income)?
+    intent: explanation
+  - action: utter_why_start_on_fixed_income
+  - user: |
+      Pq [renda fixa](fixed-income) não [produz](produce) [renda](income)?
+    intent: explanation
+  - action: utter_why_fixed_income_doenst_produce_income
+  - user: |
+      Para que [server](usage) a [renda fixa](fixed-income)?
+    intent: explanation
+  - action: utter_how_to_use_fixed_income
+  - user: |
+      Quais os [tipos](kinds) de [renda fixa](fixed-income)?
+    intent: definition
+  - action: utter_kinds_fixed_income

@@ -1,0 +1,172 @@
+[
+  {
+    "text": "O que são dividas?",
+    "entities": [
+      {
+        "start": 10,
+        "end": 17,
+        "value": "dividas",
+        "entity": "debts"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Como posso superar as dividas?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 18,
+        "value": "superar",
+        "entity": "end-up"
+      },
+      {
+        "start": 22,
+        "end": 29,
+        "value": "dividas",
+        "entity": "debts"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "O que é a reserva de emergencia?",
+    "entities": [
+      {
+        "start": 10,
+        "end": 31,
+        "value": "reserva de emergencia",
+        "entity": "emergency-saving"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Quanto devo ter na reserva de emergencia?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "Quanto",
+        "entity": "amount"
+      },
+      {
+        "start": 19,
+        "end": 40,
+        "value": "reserva de emergencia",
+        "entity": "emergency-saving"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Onde guardo a reserva de emergencia?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "Onde",
+        "entity": "place-question"
+      },
+      {
+        "start": 14,
+        "end": 35,
+        "value": "reserva de emergencia",
+        "entity": "emergency-saving"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "O que é a renda fixa?",
+    "entities": [
+      {
+        "start": 10,
+        "end": 20,
+        "value": "renda fixa",
+        "entity": "fixed-income"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Pq começar a investir na renda fixa?",
+    "entities": [
+      {
+        "text": "Pq começar a investir na renda fixa?",
+        "start": 3,
+        "end": 10,
+        "entity": "start",
+        "value": "começar"
+      },
+      {
+        "text": "Pq começar a investir na renda fixa?",
+        "start": 25,
+        "end": 35,
+        "entity": "fixed-income",
+        "value": "renda fixa"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Pq renda fixa não produz renda?",
+    "entities": [
+      {
+        "start": 3,
+        "end": 13,
+        "value": "renda fixa",
+        "entity": "fixed-income"
+      },
+      {
+        "start": 18,
+        "end": 24,
+        "value": "produz",
+        "entity": "produce"
+      },
+      {
+        "start": 25,
+        "end": 30,
+        "value": "renda",
+        "entity": "income"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Para que server a renda fixa?",
+    "entities": [
+      {
+        "start": 9,
+        "end": 15,
+        "value": "server",
+        "entity": "usage"
+      },
+      {
+        "start": 18,
+        "end": 28,
+        "value": "renda fixa",
+        "entity": "fixed-income"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Quais os tipos de renda fixa?",
+    "entities": [
+      {
+        "start": 9,
+        "end": 14,
+        "value": "tipos",
+        "entity": "kinds"
+      },
+      {
+        "start": 18,
+        "end": 28,
+        "value": "renda fixa",
+        "entity": "fixed-income"
+      }
+    ],
+    "predicted_entities": []
+  }
+]
