@@ -15,3 +15,50 @@ stories:
   - action: utter_greet
   - intent: mood_unhappy
   - action: utter_unhappy
+
+- story: about debts
+  steps:
+  - or:
+    - intent: explanation
+      entities:
+      - debts 
+    - intent: definition
+      entities:
+      - debts 
+  - action: utter_what_debt
+  - intent: instruction
+    entities:
+      - debts
+      - end-up
+  - action: utter_end_up_debt
+
+- story: about emergency savign
+  steps:
+  - or:
+    - intent: explanation
+      entities:
+      - emergency_saving 
+    - intent: definition
+      entities:
+      - emergency_saving 
+  - action: utter_what_emergency_saving
+  - intent: instruction
+    entities:
+      - amount
+      - emergency_saving
+  - action: utter_amount_on_emergency_saving
+  - intent: instruction
+    entities:
+      - place-question
+      - emergency_saving
+  - action: utter_where_put_emergency_saving
+  - - or:
+    - intent: explanation
+      entities:
+      - usage
+      - emergency_saving 
+    - intent: definition
+      entities:
+      - usage
+      - emergency_saving
+  - action: utter_usage_of_emergency_saving

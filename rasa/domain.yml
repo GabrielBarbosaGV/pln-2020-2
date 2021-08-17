@@ -1,5 +1,9 @@
 version: "2.0"
 
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
 intents:
   - greet
   - goodbye
@@ -11,6 +15,39 @@ intents:
   - explanation
   - comparison
   - definition
+  
+entities:
+    - fixed-income
+    - emergency-saving
+    - invest
+    - rich
+    - stocks:
+        groups:
+          - ordinary
+          - preferred
+          - unit
+    - company
+    - amount
+    - marketplace
+    - debts
+    - saving
+    - return
+    - value
+    - trade
+    - ipo
+    - compound-interest
+    - liquidity
+    - nominal-interest
+    - real-interest
+    - direct-treasure
+    - ebitda
+    - free-cash-flow
+    - fii:
+        groups:
+            - real-estate
+    - usage
+    - end-up
+    - place-question
 
 responses:
   utter_greet:
@@ -21,25 +58,90 @@ responses:
 
   utter_unhappy:
   - text: |
-      Você não está bem agora, mas tenho certeza que você vai ficar melhor em breve. 
-      E tenho certeza que você vai ficar melhor aidna quando quando alcançar a sua liberdade financeira
-      e eu estou aqui para lhe auxiliar nisso: respondendo duvidas iniciais sobre como começar a investir,
-      renda fixa ou variável, reserva de emergência e etc
+      Você não está bem agora, mas tenho certeza que você vai ficar melhor em breve. E tenho certeza que você vai ficar melhor ainda quando quando alcançar a sua liberdade financeira e eu estou aqui para lhe auxiliar nisso: respondendo duvidas iniciais sobre como começar a investir, renda fixa ou variável, reserva de emergência e etc
 
   utter_goodbye:
   - text: "Até logo! Boa sorte na sua caminhada"
 
   utter_iamabot:
-  - text: "Meu nome não é João, sou um chatbot e eu estou aqui para lhe ajudar com duvidas básicas sobre investimentos: passo a passo inicial, o que é renda fixa e variavel e etc"
+  - text: "Meu nome não é João, sou um chatbot e eu estou aqui para lhe ajudar com duvidas básicas sobre investimentos: qual o passo a passo para começar a investir, significado dos termos e etc"
 
   utter_out_of_scope:
   - text: |-
-     Não entendi o que você falou. Por favor, seja mais especifico. Eu posso lhe ajudar com duvidas basica sobre investimento:
-     - Qual o passo a passo inicial?
-     - O que devo fazer para começar a investir?
-     - O que é renda fixa?
-     - O que é renda variavel?
-     - Etc
-session_config:
-  session_expiration_time: 60
-  carry_over_slots_to_new_session: true
+      Não entendi o que você falou. Por favor, seja mais especifico. Eu posso lhe ajudar com duvidas basica sobre investimento:
+      - Qual o passo a passo inicial?
+      - O que devo fazer para começar a investir?
+      - O que é renda fixa?
+      - O que é renda variavel?
+      - Etc
+
+  utter_start_to_invest:
+  - text: |-
+      Tenha em mente que riqueza só vem através de:
+        - Estudo;
+        - Trabalho;
+        - Poupança: Acumular em VALOR;
+        - Tempo em investimentos de VALOR
+      
+      Investimentos principalmente a bolsa de valores foram criados para remunerar capital. E o único jeito de conseguir capital é através do trabalho!
+
+      Em todo investimento, os retornos correspondem aos riscos. Quando você vai atrás de dinheiro fácil em grande quantidade, o risco também será IMENSO. Por isso a maioria perde e nunca consegue ACUMULAR PATRIMÔNIO.
+
+      Passo a passo para começar a investir:
+
+      1. Livre-se de dívidas: nunca faça dívidas! Se tem dividas, eu posso lhe ajudar com algumas dicas de como se livrar das dívidas, pergunte-me sobre. Se não tem dívidas, parabéns. Você pode ir pro segundo passo.
+      2. Crie uma reserva de emergência: crie um capital de alta liquidez disponível para emergência. Eu posso lhe dando mais detalhes sobre, qual seria o valor mais adequado para se ter na reserva e onde colocar a reserva.
+      3. Comece a investir me renda fixa: pergunte-me sobre
+      4. Se aprofunde investindo em renda variável, por exemplo ações e fundos imobiliários(FII): também posso tirar-lhe dúvidas sobre. Pergunte-me!!!
+
+      Boa sorte com a sua nova jornada! Lembre-se eu estou aqui para lhe ajudar sobre sua duvidas iniciais e definições.
+
+  utter_what_debt:
+  - text: |-
+      Se a gente olhar no dicionário além do significado mais conhecido de "quantia que se tem de pagar a alguém", a palavra também carrega outro significado, o de "obrigação moral contraída por favor e/ou bem recebido". Contudo, apesar da negatividade que a palavra carrega, mais de 65% das famílias no Brasil possuem uma dívida – e por diversos motivos, de diversas formas.
+
+      É uma triste realidade, uma clara consequência de falta de educação financeira. Se você tem dívidas, eu tenhou algumas dicas de como acabar com elas, deixe-me lhe ajudar e pergunte-me sobre.
+
+  utter_end_up_debt:
+  - text: |-
+      O fórum bastter.com tem um bom roteiro sobre como acabar com as dívidas e deixe-me contar como é esse roteiro.
+
+      ROTEIRO PARA ACABAR COM AS DÍVIDAS(bastter.com):
+      
+      1. Em primeiro lugar, não faça novas dívidas. Quem tem dívidas não tem nada. É tudo ilusão enquanto tiver dívidas. Pare de comprar a não ser o estritamente necessário. Sacrifícios terão de ser feitos por todos da família ou nunca sairão dessa situação. Acima de tudo não faça novas dívidas nem para pagar as antigas, a não ser renegociação com os credores.
+      2. Renegocie as dívidas existentes com bancos e credores. Diga que vai pagar, mas dentro de condições e taxas viáveis. Sente, negocie e consiga dívidas mais baratas. Isso faz MUITA diferença. Eles têm margem para negociar.
+      3. Da mesma forma que o TEMPO é seu maior aliado nos investimentos, ele é seu maior inimigo nas dívidas, portanto as mantenha no menor prazo possível. Considere na renegociação os menores prazos (desde que esteja dentro do seu orçamento) e todo dinheiro extra que puder, compre tempo. Se preocupe sempre em primeiro lugar em diminuir o prazo da dívida. Nos pagamentos antecipados, compre sempre tempo, pagando as últimas parcelas. Quanto mais tempo durar a dívida mais juros e mais dinheiro vai pagar pela mesma coisa e no fim menor será seu patrimônio
+      4. Venda tudo que puder vender. TUDO. Nada é seu de verdade enquanto tiver dívidas. Estas posses que não são suas serão bem mais úteis diminuindo as dívidas. Se não pagar as dívidas, vai acabar perdendo tudo mesmo. Portanto, venda tudo que puder para pagar as dívidas, especialmente o carro se tiver, que além de tudo traz enormes gastos. Sacrifícios terão de ser feitos ou nunca vai sair dessa. Depois que não tiver mais dívidas pode comprar o que quiser desde que tenha dinheiro para pagar e manter. Aí passa a ser seu de verdade.
+      5. Se tem dívidas não tem sentido investir. Eles rendem bem menos do que as dívidas, dinheiro está sendo jogado no lixo. Este dinheiro investido rende bem mais para você pagando as dívidas. Use todos os investimentos para pagar. Mantenha apenas reserva de emergência em poupança. Pense que você está aportando na dívida que é o melhor investimento que pode fazer se tem dívidas. Não se engane com continhas, elas não consideram o pior cenário e se esse ocorrer, e ele pode ocorrer, já era. Em suma, mantenha somente Reserva de Emergência, todos outros investimentos, venda e pague as dividas e não faça novos investimentos até pagar todas as dívidas.
+      6. Todo dinheiro que sobrar, todo dinheiro extra, 13º e férias por exemplo, use para pagar dívidas, comprando tempo sempre que possível. Não tire férias, trabalhe mais, arrume outro trabalho, outra fonte de renda. Coloque todo mundo em casa para trabalhar de alguma forma. Todo foco em pagar as dívidas. Seu trabalho tem como objetivo na vida pagar as dívidas. Só vai poder ter vida boa sem elas. É como um câncer. Pare tudo e foque só em destruí-las. Seja feliz depois de pagar as dívidas pois com elas não vai ser feliz de qualquer forma. Enquanto tem dívidas não é um ser humano, não tem direito a viver. Pague a dívida, depois vire ser humano e volte a viver. Enquanto tiver dívidas sua vida se resume a pagar as dívidas.
+      7. Não se engane, o Governo pode mudar as regras das dívidas, pode vir inflação alta, você pode perder o emprego, dívidas são um risco alto sempre. E não adianta dizer que vai colocar na justiça, vai brigar, seja lá o que for. Há casos e mais casos em que o governo mudou as regras e as pessoas morreram brigando na justiça. O objetivo primordial desse livro é paz e não mais stress. Foi você quem fez as dívidas, ninguém te obrigou, assuma sua responsabilidade e pague.
+      8. Quando terminar de pagar as dívidas, mantenha uma parte do esforço para acumular patrimônio e daqui para frente só compre o que precisa com dinheiro que tem. Pare de comprar o que não precisa com dinheiro que não tem para impressionar pessoas que não conhece. Quer poder comprar estas coisas, trabalhe, poupe e acumule. Quando tiver dinheiro para comprar e manter, aí sim poderá comprar e será seu.
+
+  utter_what_emergency_saving:
+  - text: |-
+      Reserva de emergência = capital com alta liquidez disponível para emergências.Constitui de 3 a 6 meses de despesas mensais em caderneta de poupança. Pode ser maior ou menor de acordo com as características e vida financeira de cada um.
+
+      Como não é possível prever tudo, para outros casos em que a reserva for insuficiente, temos o próprio patrimônio, em especial a parte em renda fixa como uma segurança maior. O objetivo é ter liquidez imediata, não rendimento, porque a Reserva de Emergência tende a ser movimentada constantemente. Se não estiver sendo movimentada provavelmente está maior do que deveria. Se for esse o caso, reavalie e invista parte dela.
+
+  utter_where_put_emergency_saving:
+  - text: |-
+      Muitas pessoas erradamente colocam a Reserva de Emergência em Tesouro Direto Selic por render mais e achar que a liquidez D+1 é suficiente. Frequentemente o Tesouro fecha para negociações e algumas vezes mais do que um dia. Houve épocas que o Tesouro só recomprava títulos uma vez por semana. Reserva de Emergência deve ser na Caderneta de Poupança. O objetivo é liquidez imediata, e não rentabilidade.
+
+      Se colocar a reserva de emergência em algo com baixa liquidez, em busca de mais rentabilidade, na hora da emergência vai ter dificuldade em acessar o dinheiro, não vai resolver o problema ou pode ter um custo maior para resolver. Tudo isso acaba em mais gastos e no fim, a suposta maior rentabilidade se esvai.
+
+      Se for dinheiro de EMERGÊNCIA tem de ser poupança. Se você nunca usa não é dinheiro de emergência e, sim, INVESTIMENTO.
+
+  utter_amount_on_emergency_saving:
+  - text: |-
+      O tamanho da reserva de emergência deve ser determinado por cada um de acordo com as suas características. Se tem família ou não, idade, estabilidade, etc.
+
+      O padrão é começar com algo entre 3 a 6 meses de gastos, mas pode ser menor ou maior. Cada um decide de acordo com suas características e por um tamanho que dê tranquilidade. O valor depende da situação de vida e gastos. Quanto mais incerta for a renda maior deve ser a reserva.
+
+      Antes de iniciar qualquer investimento é IMPRESCINDÍVEL possuir reserva de emergência.
+
+      uando sua Reserva de Emergência + Investimentos for igual a 24 meses de despesas pagas, você está começando a ter tranquilidade financeira.
+
+  utter_usage_of_emergency_saving:
+  - text: |-
+      Reserva é para ser utilizada. Se não usa, é investimento. Reserva está lá para imprevistos. E imprevisto, foge a qualquer planejamento. Exemplo? Bater carro e precisar comprar peças. Como planejar não bater o carro? Por mais atento que seja no trânsito, imprevistos podem acontecer a qualquer hora.
+
