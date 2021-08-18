@@ -56,7 +56,20 @@ entities:
     - produce
     - tag
     - f-idx
-    - stock
+    - q-type:
+        roles:
+            - stock
+            - fii
+
+slots:
+    tag:
+        type: unfeaturized
+    q-type:
+        type: unfeaturized
+    f-idx:
+        type: unfeaturized
+    info:
+        type: unfeaturized
 
 responses:
     utter_greet:
@@ -221,4 +234,4 @@ responses:
 
         Assim, é feita uma média ponderada e ajustada que é divulgada diariamente. Ela é a taxa Selic Overnight. No ano, ela é a taxa Selic anual. 
 actions:
-    - action_hello_world
+    - action_get_information

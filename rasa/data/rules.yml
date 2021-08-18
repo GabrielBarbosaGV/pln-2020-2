@@ -48,15 +48,10 @@ rules:
 
 - rule: get price
   steps:
-  - or:
-    - intent: instruction
-      entities:
-        - f-idx
-        - tag
-        - stock
-    - intent: instruction
-      entities:
-        - f-idx
-        - tag
-        - fii
-  - action: action_hello_world
+  - intent: instruction
+    entities:
+      - f-idx
+      - tag
+      - q-type:
+        role: stock
+  - action: action_get_information

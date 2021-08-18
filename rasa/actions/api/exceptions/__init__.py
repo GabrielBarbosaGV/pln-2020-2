@@ -1,0 +1,1 @@
+from .InvalidFundamentalistIndexException import InvalidFundamentalistIndexException
