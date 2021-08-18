@@ -4,7 +4,7 @@ class AbstractParser(abc.ABC):
   def get_title(self, bs):
     return bs.find(
         'header', {'role': 'heading'}
-        ).find('h1', {'class': 'lh-4'}).get('title')
+        ).find('h1', {'class': 'lh-4'}).text
 
   def get_current_price(self, bs):
     return bs.find(
