@@ -6,12 +6,6 @@ class StatusInvestAPI:
         self.crawler = StatusInvestCrawler(None)
         self.parser = StatusInvestParser()
 
-    def query(self, tag, tag_type):
-        return self.__query_stock(tag) if tag_type == 1 else self.__query_reit(tag)
-
-    def __query_stock(self, tag):
-        response = self.crawler.get_html(1, tag)
-        return self.parser.parse(response.text)
-
-    def __query_reit(self, tag):
-        pass
+    def query(self, tag_type, tag):
+        response = self.crawler.get_html(tag_type, tag)
+        return self.parser.parse(tag_type, response.text)

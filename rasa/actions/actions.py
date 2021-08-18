@@ -16,9 +16,10 @@ from actions.api import StatusInvestAPI
 from actions.api.exceptions import InvalidFundamentalistIndexException
 
 def get_tag_type(q_type):
-    if q_type.lower() in ['da', 'da ação', 'da acao']:
+    lower_type = q_type.lower()
+    if lower_type in ['da', 'da ação', 'da acao']:
         return 1
-    else:
+    elif lower_type in ['do', 'do fundo']:
         return 2
 
 def get_info(f_idx, response):
@@ -30,7 +31,7 @@ def get_info(f_idx, response):
     elif clean_text in ['cnpj']:
         return response.get('cnpj')
     elif clean_text in ['dividend yield', 'dy', 'd.y.', 'dy.', 'd.y']:
-        return response.get('indicators').get('D.Y')
+        return response.get('dividend_yield')
     raise InvalidFundamentalistIndexException(f_idx)
 
 class ActionGetInformations(Action):
@@ -44,9 +45,9 @@ class ActionGetInformations(Action):
             f_idx = tracker.get_slot('f-idx')
             q_type = tracker.get_slot('q-type')
             print(tag, f_idx, q_type)
-            response = api.query(tag, get_tag_type(q_type))
+            response = api.query(get_tag_type(q_type), tag)
             dispatcher.utter_message(get_info(f_idx, response))
         except Exception as e:
-            print(e)
+            raise e
 
         return []

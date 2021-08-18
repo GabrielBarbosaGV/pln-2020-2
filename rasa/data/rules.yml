@@ -46,7 +46,7 @@ rules:
     - income
   - action: utter_why_fixed_income_doenst_produce_income
 
-- rule: get price
+- rule: get stock info
   steps:
   - intent: instruction
     entities:
@@ -54,4 +54,14 @@ rules:
       - tag
       - q-type:
         role: stock
+  - action: action_get_information
+
+- rule: get reit info
+  steps:
+  - intent: instruction
+    entities:
+      - f-idx
+      - tag
+      - q-type:
+        role: fii
   - action: action_get_information
