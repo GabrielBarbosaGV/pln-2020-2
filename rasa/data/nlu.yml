@@ -89,6 +89,11 @@ nlu:
     - [ond](place-question) colocar a [Reserva de emergencia](emergency-saving)?
     - [ond](place-question) guardar a [Reserva de emergencia](emergency-saving)?
     - Como [usar](usage) a [renda fixa](fixed-income)?
+    - Qual o [preço](f-idx) da [ação](stock) [MGLU3](tag)?
+    - Qual o [preço](f-idx) do [fundo](fii) [XPLG11](tag)?
+    - Qual o [p/vp](f-idx) da [ação](stock) [flry3](tag)?
+    - Qual o [dividend yield](f-idx) do [fundo](fii) [hglg11](tag)?
+    - Qual o [dividend yield](f-idx) da [ação](stock) [taee4](tag)?
 
 - intent: explanation
   examples: |

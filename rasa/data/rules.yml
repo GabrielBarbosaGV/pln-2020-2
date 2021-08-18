@@ -45,3 +45,18 @@ rules:
     - produce
     - income
   - action: utter_why_fixed_income_doenst_produce_income
+
+- rule: get price
+  steps:
+  - or:
+    - intent: instruction
+      entities:
+        - f-idx
+        - tag
+        - stock
+    - intent: instruction
+      entities:
+        - f-idx
+        - tag
+        - fii
+  - action: action_hello_world

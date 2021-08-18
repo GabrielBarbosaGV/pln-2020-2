@@ -54,6 +54,9 @@ entities:
     - income
     - start
     - produce
+    - tag
+    - f-idx
+    - stock
 
 responses:
     utter_greet:
@@ -217,3 +220,5 @@ responses:
         Para isso, as instituições fazem empréstimos entre elas. Há uma taxa de juros e também a emissão de títulos de curtíssimo prazo (1 dia). 
 
         Assim, é feita uma média ponderada e ajustada que é divulgada diariamente. Ela é a taxa Selic Overnight. No ano, ela é a taxa Selic anual. 
+actions:
+    - action_hello_world
