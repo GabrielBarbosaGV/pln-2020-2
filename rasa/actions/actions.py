@@ -26,12 +26,11 @@ class ActionGetInformations(Action):
             api = StatusInvestAPI()
             tag = tracker.get_slot('tag')
             f_idx = tracker.get_slot('f-idx')
-            q_type = tracker.get_slot('q-type')
+            q_type = get_tag_type(tracker.get_slot('q-type'))
             print(tag, f_idx, q_type)
-            response = api.query(get_tag_type(q_type), tag)
+            response = api.query(q_type, tag)
             dispatcher.utter_message(f"Informações sobre {get_info(q_type, 'titulo', response)} - CNPJ {get_info(q_type, 'cnpj', response)}:\nO {f_idx} desse título é {get_info(q_type, f_idx, response)}")
         except Exception as e:
-            print(e)
-            dispatcher.utter_message(f"Desculpa. Não consegui entender a sua pergunta. {e.message}")
+            dispatcher.utter_message(f"Desculpe. {e.message}")
 
         return []
