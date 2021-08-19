@@ -13,7 +13,7 @@ def get_tag_type(q_type):
     elif lower_type in ['do', 'do fundo']:
         return 2
     else:
-        raise UnrecognizedQueryTypeException
+        raise UnrecognizedQueryTypeException()
 
 def __get_info_stock(f_idx, response):
     try:
@@ -29,7 +29,7 @@ def __get_info_stock(f_idx, response):
         elif clean_text in ['p/vp', 'pvp']:
             return response.get('indicators').get('P/VP')
     except Exception:
-        raise InternalErrorException
+        raise InternalErrorException()
     raise InvalidFundamentalistIndexException(f_idx)
     
 def __get_info_reit(f_idx, response):
@@ -46,5 +46,5 @@ def __get_info_reit(f_idx, response):
         elif clean_text in ['p/vp', 'pvp']:
             return response.get('indicators').get('P/VP')
     except Exception:
-        raise InternalErrorException
+        raise InternalErrorException()
     raise InvalidFundamentalistIndexException(f_idx)

@@ -1,8 +1,8 @@
 from .AbstractCrawler import AbstractCrawler
-
+from ..exceptions import InternalErrorException
 class StatusInvestCrawler(AbstractCrawler):
-  def __init__(self, parser):
-    super(StatusInvestCrawler, self).__init__(parser)
+  def __init__(self):
+    super(StatusInvestCrawler, self).__init__()
     self.__base_url = 'https://statusinvest.com.br'
 
   def get_stock(self, code):
@@ -17,4 +17,4 @@ class StatusInvestCrawler(AbstractCrawler):
     elif stock_type == 2:
       return self.get_reit(code)
     else:
-      raise Exception('Invalid Code')
+      raise InternalErrorException('Erro ao buscar as informações.')

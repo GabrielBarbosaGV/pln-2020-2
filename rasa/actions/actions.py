@@ -32,5 +32,5 @@ class ActionGetInformations(Action):
             dispatcher.utter_message(f"Informações sobre {get_info(q_type, 'titulo', response)} - CNPJ {get_info(q_type, 'cnpj', response)}:\nO {f_idx} desse título é {get_info(q_type, f_idx, response)}")
         except Exception as e:
             dispatcher.utter_message(f"Desculpe. {e.message}")
-
-        return []
+        finally:
+            return []
