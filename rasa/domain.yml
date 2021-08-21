@@ -75,26 +75,39 @@ responses:
     - text: "Oi, como vai você?"
 
     utter_happy:
-    - text: "Que ótimo! E você vai ficar ainda mais feliz quando alcançar a sua liberdade financeira e eu estou aqui para lhe auxiliar nisso: respondendo duvidas iniciais sobre como começar a investir, renda fixa ou variável, reserva de emergência e etc"
+    - text: |-
+        Que ótimo! E você vai ficar ainda mais feliz quando alcançar a sua liberdade financeira e eu estou aqui para lhe auxiliar nisso: respondendo duvidas iniciais sobre como começar a investir, renda fixa, ações e fii, reserva de emergência e etc
 
+        Também posso buscar o preço, dividend yeld e p/vp de ações e fii em tempo real. Basta perguntar: qual o preço da ação x? ou qual o preço do fundo y?
+
+        Caso não entenda algum termo ou conceito me pergunte que eu posso lhe explicar. por exemplo o Que é dividend yeld?
     utter_unhappy:
-    - text: |
-        Você não está bem agora, mas tenho certeza que você vai ficar melhor em breve. E tenho certeza que você vai ficar melhor ainda quando quando alcançar a sua liberdade financeira e eu estou aqui para lhe auxiliar nisso: respondendo duvidas iniciais sobre como começar a investir, renda fixa ou variável, reserva de emergência e etc
+    - text: |-
+        Você não está bem agora, mas tenho certeza que você vai ficar melhor em breve. E tenho certeza que você vai ficar melhor ainda quando quando alcançar a sua liberdade financeira e eu estou aqui para lhe auxiliar nisso: respondendo duvidas iniciais sobre como começar a investir, renda fixa, ações e fii, reserva de emergência e etc.
 
+        Também posso buscar o preço, dividend yeld e p/vp de ações e fii em tempo real. Basta perguntar: qual o preço da ação x? ou qual o preço do fundo y?
+
+        Caso não entenda algum termo ou conceito me pergunte que eu posso lhe explicar. por exemplo o Que é dividend yeld?
     utter_goodbye:
     - text: "Até logo! Boa sorte na sua caminhada"
 
     utter_iamabot:
-    - text: "Meu nome não é João, sou um chatbot e eu estou aqui para lhe ajudar com duvidas básicas sobre investimentos: qual o passo a passo para começar a investir, significado dos termos e etc"
+    - text: |-
+        Meu nome não é João, sou um chatbot e eu estou aqui para lhe ajudar com duvidas básicas sobre investimentos: qual o passo a passo para começar a investir, o que são ações ou o que é fii, como se livrar de dividas e etc
+
+        Também posso buscar o preço, dividend yeld e p/vp de ações e fii em tempo real. Basta perguntar: qual o preço da ação x? ou qual o preço do fundo y?
+
+        Caso não entenda algum termo ou conceito me pergunte que eu posso lhe explicar. por exemplo o Que é dividend yeld?
 
     utter_out_of_scope:
     - text: |-
-        Não entendi o que você falou. Por favor, seja mais especifico. Eu posso lhe ajudar com duvidas basica sobre investimento:
-        - Qual o passo a passo inicial?
+        Não entendi o que você falou. Por favor, seja mais especifico. Eu posso lhe ajudar com duvidas basica sobre investimentos:
+        - Qual o passo a passo inicial para investir?
         - O que devo fazer para começar a investir?
         - O que é renda fixa?
-        - O que é renda variavel?
-        - Etc
+        - O que são ações?
+        - qual o preço da ação mglu3?
+        - qual o preço do fundo hglg11?
 
     utter_start_to_invest:
     - text: |-
