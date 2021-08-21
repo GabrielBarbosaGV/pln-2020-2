@@ -316,6 +316,27 @@ responses:
         - Para FIIs de papel (TVM): Em quais títulos o FII investe? Em FIIs com carteiras de CRI, é interessante olhar qual o tamanho de cada CRI em relação ao patrimônio do fundo, qual lastro, indexadores, taxas, garantias e tudo mais.
         - Fundos de Fundos (FoF): Analisar se você concorda com os FIIs que tem na carteira e qual a exposição em cada um deles
 
+    utter_what_is_trading:
+    - text: |-
+        Day trading, em tradução livre para o português, significa "transação dentro de um dia".
+        É o nome dado à prática de realizar transações baseadas nas oscilações de preço de ações
+        dentro de um curto período de tempo.
+
+    utter_what_is_ipo:
+    - text: |-
+        IPO, sigla para "Initial Public Offering", "Oferta Pública Inicial", em tradução livre para o português
+        é o processo através do qual uma empresa oferta suas ações pela primeira vez no mercado financeiro,
+        tornando-se um companhia de capital aberto.
+
+    utter_what_is_compound_interest:
+    - text: |-
+        Juros compostos são taxas aplicadas sobre empréstimos de forma recorrente, em que a porcentagem de acréscimo
+        do valor em cada taxação é calculada sobre o último, gerando um crescimento exponencial.
+
+    utter_what_is_liquidity:
+    - text: |-
+        Liquidez, em contabilidade, corresponde à velocidade e facilidade com a qual um ativo pode ser
+        convertido em caixa.
 
 actions:
     - action_get_information

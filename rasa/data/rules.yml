@@ -73,3 +73,30 @@ rules:
         role: fii
   - action: action_get_information
   
+- rule: what is trading
+  steps:
+  - intent: definition
+    entities:
+    - trade
+  - action: utter_what_is_trading
+
+- rule: what is ipo
+  steps:
+  - intent: definition
+    entities:
+    - ipo
+  - action: utter_what_is_ipo
+
+- rule: what is compound interest
+  steps:
+  - intent: definition
+    entities:
+    - compound-interest
+  - action: utter_what_is_compound_interest
+
+- rule: what is liquidity
+  steps:
+  - intent: definition
+    entities:
+    - liquidity
+  - action: utter_what_is_liquidity
