@@ -21,9 +21,14 @@ rules:
 
 - rule: start to invest
   steps:
-  - intent: instruction
-    entities:
-    - invest
+  - or:
+    - intent: instruction
+      entities:
+      - invest
+    - intent: instruction
+      entities:
+      - start
+      - invest
   - action: utter_start_to_invest
 
 - rule: what cdi
@@ -67,3 +72,4 @@ rules:
       - q-type:
         role: fii
   - action: action_get_information
+  

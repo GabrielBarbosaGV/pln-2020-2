@@ -141,12 +141,9 @@ nlu:
     - O que é [tesouro direto](direct-treasure)?
     - Quais os tipos de [tesouro direto](direct-treasure)?
     - Quais os tipos de [renda fixa](fixed-income)?
-    - O que é [ON]{"entity": "stocks", "group": "ordinary"}?
-    - O que são [ações ordinárias]{"entity": "stocks", "group": "ordinary"}?
-    - O que é [PN]{"entity": "stocks", "group": "preferred"}?
-    - O que são [ações preferenciais]{"entity": "stocks", "group": "preferred"}?
-    - O que é [UNIT]{"entity": "stocks", "group": "unit"}?
-    - O que são [ações unit]{"entity": "stocks", "group": "unit"}?
+    - O que são [ações ordinárias]](stocks)?
+    - O que são [ações preferenciais](stocks)?
+    - O que são [ações unit](stocks)?
     - O que é geração de caixa [EBITDA](ebitda)?
     - O que é [fluxo de caixa livre](free-cash-flow)?
     - O que são os [fundos de investimento em imoveis](fii)?
