@@ -94,3 +94,18 @@ stories:
       Como [escolher](choose) boas [empresas](company)?
     intent: instruction
   - action: utter_how_choose_companies
+
+- story: about fii path 1
+  steps:
+  - user: |
+      O que são os [fundo de investimento em imoveis](fii)?
+    intent: definition
+  - action: utter_what_fii
+  - user: |
+      Quais os [tipos](kinds) de [fiis](fii)?
+    intent: definition
+  - action: utter_kinds_fiis
+  - user: |
+      Como [escolher](choose) um bom [fundo de investimento em imoveis](fii)?
+    intent: instruction
+  - action: utter_choose_fii

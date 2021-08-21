@@ -252,5 +252,53 @@
       }
     ],
     "predicted_entities": []
+  },
+  {
+    "text": "O que são os fundo de investimento em imoveis?",
+    "entities": [
+      {
+        "start": 13,
+        "end": 45,
+        "value": "fundo de investimento em imoveis",
+        "entity": "fii"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Quais os tipos de fiis?",
+    "entities": [
+      {
+        "start": 9,
+        "end": 14,
+        "value": "tipos",
+        "entity": "kinds"
+      },
+      {
+        "start": 18,
+        "end": 22,
+        "value": "fiis",
+        "entity": "fii"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Como escolher um bom fundo de investimento em imoveis?",
+    "entities": [
+      {
+        "start": 5,
+        "end": 13,
+        "value": "escolher",
+        "entity": "choose"
+      },
+      {
+        "start": 21,
+        "end": 53,
+        "value": "fundo de investimento em imoveis",
+        "entity": "fii"
+      }
+    ],
+    "predicted_entities": []
   }
 ]

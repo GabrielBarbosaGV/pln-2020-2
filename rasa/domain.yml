@@ -41,9 +41,7 @@ entities:
     - direct-treasure
     - ebitda
     - free-cash-flow
-    - fii:
-        groups:
-            - real-estate
+    - fii
     - usage
     - end-up
     - place-question
@@ -271,6 +269,40 @@ responses:
         OS DADOS NECESSÁRIOS PARA ANÁLISE DE EMPRESAS: receita, EBITDA, lucro, já descontado dos não recorrentes (eventos esporádicos), margem líquida (lucro/receita), dívida líquida, dívida líquida/EBITDA e fluxo de caixa líquido CAPEX. Com esses dados pode-se avaliar a evolução dos balanços da empresa no que diz respeito a eficiência com que ela produz dinheiro e se mantem caixa e dívida equilibrados. Todos dados retirados dos balanços oficiais auditados entregues a Bovespa e a CVM.
 
         Para quem se dedica ao seu trabalho e faz uma carteira diversificada estes dados acima são mais do que suficientes para selecionar boas empresas.
+
+    utter_what_fii:
+    - text: |-
+        Em primeiro lugar FIIs não são imóveis, são fundos de investimentos em imóveis. O objetivo é ter cotas de grandes fundos que investem em imóveis e ter retorno em ganho de capital e alugueis, de acordo com sua participação nos fundos. É uma forma mais acessível de investir em imóveis, mas não são imóveis. Não é a mesma coisa que comprar um imóvel e não substitui propriamente o investimento em imóveis. Você não pode pegar sua família e ir morar num FII.
+
+        Apesar de serem negociados em Bolsa igual as ações, não são empresas como as que lançam ações. Os REITs, que são os equivalentes aos FIIs nos EUA são empresas que investem em imóveis e que lançam ações na Bolsa. São iguais qualquer empresa na Bolsa com a única diferença de investirem primordialmente em imóveis. Os FIIs são fundos é não se compra uma ação, mas uma cota de participação.
+
+         Os FIIs podem divididos de tijolos e de papel cada um investe em diferentes ativos.
+
+         O objetivo dos FIIs é captar recursos dos investidores para investir no mercado imobiliário e auferir renda. Por lei, 95% dos resultados tem que ser distribuídos aos cotistas e na prática a maioria dos fundos distribui proventos mensalmente.
+
+         Avalie bem o seu FII antes de começar a investir.
+    
+    utter_kinds_fiis:
+    - text: |-
+        Existem dois tipos principais de FIIs, os que investem em imóveis (Tijolo) e os que investem em renda fixa atrelada ao crédito imobiliário (Papel). Os critérios de analisar cada tipo são diferentes e existem FIIs que investem em ambos, imóveis e títulos.
+
+    utter_choose_fii:
+    - text: |-
+        COMO AVALIAR QUALQUER FII
+
+        - Liquidez e Free Float: Se o FII passa nos critérios que o investidor estabeleceu, é preciso avaliar se é possível ser cotista: Há negociações suficientes na bolsa que possibilitam isso, ou é um fundo sem liquidez?
+        - Na composição societária do fundo, há cotistas majoritários? Se sim, eles podem formar um bloco de controle (percentuais acima de 25% em geral permitem ter voto decisório em assembleias, desde que a pauta não tenha sido proposta pelo próprio cotista o que geraria conflito de interesse)?
+        - proventos:aqui não se deve avaliar retorno ou coisa do tipo, apenas se o que está sendo distribuído no horizonte de um semestre corresponde ao que o fundo efetivamente gera. FIIs que distribuem mais do que geram precisam tirar o dinheiro de algum lugar, e um eventual ajuste à realidade pode gerar um choque:
+        
+        COMO AVALIAR UM FII DE IMÓVEL
+    
+        - Diversificação interna: Quantos imóveis o FII possui? São próximos ou espalhados entre regiões? Quanto mais diversificado em imóveis, menores as chances de algum problema em um único imóvel afetar o FII, bem como menores serão os impactos que alguma alteração na região terá sobre a carteira do FII.
+
+        COMO ANALISAR FIIs DE PAPEL E FUNDOS DE FUNDOS
+
+        - Para FIIs de papel (TVM): Em quais títulos o FII investe? Em FIIs com carteiras de CRI, é interessante olhar qual o tamanho de cada CRI em relação ao patrimônio do fundo, qual lastro, indexadores, taxas, garantias e tudo mais.
+        - Fundos de Fundos (FoF): Analisar se você concorda com os FIIs que tem na carteira e qual a exposição em cada um deles
+
 
 actions:
     - action_get_information

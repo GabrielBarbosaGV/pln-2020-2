@@ -123,3 +123,21 @@ stories:
     - choose
     - company
   - action: utter_how_choose_companies
+
+
+- story: about fiis
+  steps:
+  - intent: definition
+    entities:
+    - fii
+  - action: utter_what_fii
+  - intent: definition
+    entities:
+    - kinds
+    - fii
+  - action: utter_kinds_fiis
+  - intent: instruction
+    entities:
+    - choose
+    - fii
+  - action: utter_choose_fii

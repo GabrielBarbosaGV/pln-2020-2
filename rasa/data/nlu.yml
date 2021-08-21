@@ -141,21 +141,28 @@ nlu:
     - O que é [tesouro direto](direct-treasure)?
     - Quais os tipos de [tesouro direto](direct-treasure)?
     - Quais os tipos de [renda fixa](fixed-income)?
-    - O que é [ON]("entity": "stocks", group: "ordinary")?
-    - O que são [ações ordinárias]("entity": "stocks", group: "ordinary")?
-    - O que é [PN]("entity": "stocks", group: "preferred")?
-    - O que são [ações preferenciais]("entity": "stocks", group: "preferred")?
-    - O que é [UNIT]("entity": "stocks", group: "unit")?
-    - O que são [ações unit]("entity": "stocks", group: "unit")?
+    - O que é [ON]{"entity": "stocks", "group": "ordinary"}?
+    - O que são [ações ordinárias]{"entity": "stocks", "group": "ordinary"}?
+    - O que é [PN]{"entity": "stocks", "group": "preferred"}?
+    - O que são [ações preferenciais]{"entity": "stocks", "group": "preferred"}?
+    - O que é [UNIT]{"entity": "stocks", "group": "unit"}?
+    - O que são [ações unit]{"entity": "stocks", "group": "unit"}?
     - O que é geração de caixa [EBITDA](ebitda)?
     - O que é [fluxo de caixa livre](free-cash-flow)?
-    - O que são os [fundos de investimento](fii)?
-    - O que são os [fundos de investimento em imovéis]("entity": "fii", "group": "real-estate")?
+    - O que são os [fundos de investimento em imoveis](fii)?
+    - oq é [fii](fii)?
+    - o que são [fiis](fii)
+    - O que é [fundo de investimento em imoveis](fii)?
+    - O que são os [fundos de investimento em imovéis](fii)?
     - O que é a taxa [SELIC](selic)?
     - o que é [selic](selic)?
     - O que é a taxa [cdi](cdi)?
     - o que é [CDI](cdi)?
-    - [tipos](kinds) de [renda fixa](fixed-income?
+    - [tipos](kinds) de [renda fixa](fixed-income)?
     - quais os [tipo](kinds) de [renda fixa](fixed-income)?
     - Quais são os [tipos](kinds) de [renda fixa](fixed-income)?
     - q os [tipos](kinds) de [renda fixa](fixed-income)?
+    - [tipos](kinds) de [fii](fii)?
+    - quais os [tipo](kinds) de [fundos de investimentos imobiliarios](fii)?
+    - Quais são os [tipos](kinds) de [fiis](fii)?
+    - q os [tipos](kinds) de [fundos de investimentos imobiliarios](fii)?
