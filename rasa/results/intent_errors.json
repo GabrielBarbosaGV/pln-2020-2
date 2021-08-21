@@ -1,10 +1,130 @@
 [
   {
-    "text": "tou bem e vc",
+    "text": "Quais são os dados necessários para avaliar empresas?",
+    "intent": "instruction",
+    "intent_prediction": {
+      "name": "definition",
+      "confidence": 0.6870755553245544
+    }
+  },
+  {
+    "text": "O que constitui a reserva de emergência?",
+    "intent": "explanation",
+    "intent_prediction": {
+      "name": "definition",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "vou bem",
     "intent": "mood_great",
     "intent_prediction": {
       "name": "mood_unhappy",
-      "confidence": 0.48733922839164734
+      "confidence": 0.9999843835830688
+    }
+  },
+  {
+    "text": "É preciso ser rico para investir?",
+    "intent": "explanation",
+    "intent_prediction": {
+      "name": "instruction",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Utilizar dinheiro da reserva de emergencia é falta de planejamento?",
+    "intent": "explanation",
+    "intent_prediction": {
+      "name": "instruction",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Como funciona a renda fixa?",
+    "intent": "explanation",
+    "intent_prediction": {
+      "name": "instruction",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "O que precisamos saber para investir em ações?",
+    "intent": "instruction",
+    "intent_prediction": {
+      "name": "explanation",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Por que não deixar a reserva de emergência no tesouro direto?",
+    "intent": "explanation",
+    "intent_prediction": {
+      "name": "definition",
+      "confidence": 0.9928486943244934
+    }
+  },
+  {
+    "text": "Nunca mexo na reserva, para que colocar em poupança?",
+    "intent": "explanation",
+    "intent_prediction": {
+      "name": "instruction",
+      "confidence": 0.9999704360961914
+    }
+  },
+  {
+    "text": "top",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.7711993455886841
+    }
+  },
+  {
+    "text": "Agora é a hora da renda fixa?",
+    "intent": "instruction",
+    "intent_prediction": {
+      "name": "explanation",
+      "confidence": 0.9997432827949524
+    }
+  },
+  {
+    "text": "Quais são as utilidades para renda fixa?",
+    "intent": "explanation",
+    "intent_prediction": {
+      "name": "definition",
+      "confidence": 0.9834027290344238
+    }
+  },
+  {
+    "text": "Por que começar a investir em renda fixa?",
+    "intent": "explanation",
+    "intent_prediction": {
+      "name": "instruction",
+      "confidence": 0.8377217650413513
+    }
+  },
+  {
+    "text": "O que é reserva de emergência?",
+    "intent": "definition",
+    "intent_prediction": {
+      "name": "instruction",
+      "confidence": 0.998989999294281
+    }
+  },
+  {
+    "text": "Posso perder tudo em ações?",
+    "intent": "explanation",
+    "intent_prediction": {
+      "name": "instruction",
+      "confidence": 0.9993920922279358
+    }
+  },
+  {
+    "text": "Para que as bolsas de valores foram criadas?",
+    "intent": "explanation",
+    "intent_prediction": {
+      "name": "instruction",
+      "confidence": 1.0
     }
   }
 ]

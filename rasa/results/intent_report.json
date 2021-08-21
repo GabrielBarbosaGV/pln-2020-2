@@ -1,24 +1,13 @@
 {
-  "explanation": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 17,
-    "confused_with": {}
-  },
-  "comparison": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 2,
-    "confused_with": {}
-  },
-  "definition": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 39,
-    "confused_with": {}
+  "instruction": {
+    "precision": 0.813953488372093,
+    "recall": 0.9210526315789473,
+    "f1-score": 0.8641975308641974,
+    "support": 38,
+    "confused_with": {
+      "explanation": 2,
+      "definition": 1
+    }
   },
   "goodbye": {
     "precision": 1.0,
@@ -27,52 +16,52 @@
     "support": 5,
     "confused_with": {}
   },
-  "greet": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 4,
-    "confused_with": {}
-  },
-  "mood_unhappy": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 12,
-    "confused_with": {}
-  },
-  "bot_challenge": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 4,
-    "confused_with": {}
-  },
-  "instruction": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 38,
-    "confused_with": {}
+  "explanation": {
+    "precision": 0.7777777777777778,
+    "recall": 0.4117647058823529,
+    "f1-score": 0.5384615384615384,
+    "support": 17,
+    "confused_with": {
+      "instruction": 7,
+      "definition": 3
+    }
   },
   "mood_great": {
     "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
+    "recall": 0.8571428571428571,
+    "f1-score": 0.923076923076923,
     "support": 14,
+    "confused_with": {
+      "mood_unhappy": 2
+    }
+  },
+  "mood_unhappy": {
+    "precision": 0.8571428571428571,
+    "recall": 1.0,
+    "f1-score": 0.923076923076923,
+    "support": 12,
     "confused_with": {}
   },
-  "accuracy": 1.0,
+  "definition": {
+    "precision": 0.9047619047619048,
+    "recall": 0.9743589743589743,
+    "f1-score": 0.9382716049382716,
+    "support": 39,
+    "confused_with": {
+      "instruction": 1
+    }
+  },
+  "accuracy": 0.872,
   "macro avg": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 135
+    "precision": 0.8922726713424388,
+    "recall": 0.8607198614938554,
+    "f1-score": 0.8645140867363089,
+    "support": 125
   },
   "weighted avg": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 135
+    "precision": 0.8697910668143227,
+    "recall": 0.872,
+    "f1-score": 0.8606875593542259,
+    "support": 125
   }
 }

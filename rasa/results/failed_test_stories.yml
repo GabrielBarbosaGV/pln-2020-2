@@ -24,6 +24,5 @@ stories:
   - action: utter_how_to_use_fixed_income
   - intent: definition
     entities:
-    - kinds: tipos
     - fixed-income: renda fixa
   - action: utter_kinds_fixed_income

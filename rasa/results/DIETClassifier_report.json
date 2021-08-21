@@ -1,38 +1,21 @@
 {
-  "q-type.fii": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 4,
-    "confused_with": {}
+  "f-idx": {
+    "precision": 0.6666666666666666,
+    "recall": 0.2857142857142857,
+    "f1-score": 0.4,
+    "support": 7,
+    "confused_with": {
+      "debts": 2
+    }
   },
-  "stocks": {
+  "tag": {
     "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 10,
-    "confused_with": {}
-  },
-  "start": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
+    "recall": 0.8,
+    "f1-score": 0.888888888888889,
     "support": 5,
-    "confused_with": {}
-  },
-  "debts": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 8,
-    "confused_with": {}
-  },
-  "saving": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 1,
-    "confused_with": {}
+    "confused_with": {
+      "q-type": 1
+    }
   },
   "selic": {
     "precision": 1.0,
@@ -41,32 +24,27 @@
     "support": 2,
     "confused_with": {}
   },
-  "risks": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 1,
+  "marketplace": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
     "confused_with": {}
   },
-  "value": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
+  "ebitda": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
     "support": 1,
-    "confused_with": {}
+    "confused_with": {
+      "income": 1
+    }
   },
-  "emergency-saving": {
+  "choose": {
     "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 45,
-    "confused_with": {}
-  },
-  "return": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 1,
+    "recall": 0.75,
+    "f1-score": 0.8571428571428571,
+    "support": 4,
     "confused_with": {}
   },
   "cdi": {
@@ -76,111 +54,6 @@
     "support": 2,
     "confused_with": {}
   },
-  "ipo": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 2,
-    "confused_with": {}
-  },
-  "place-question": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 7,
-    "confused_with": {}
-  },
-  "usage": {
-    "precision": 0.875,
-    "recall": 1.0,
-    "f1-score": 0.9333333333333333,
-    "support": 7,
-    "confused_with": {}
-  },
-  "real-interest": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 2,
-    "confused_with": {}
-  },
-  "choose": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 4,
-    "confused_with": {}
-  },
-  "company": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 3,
-    "confused_with": {}
-  },
-  "f-idx": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 7,
-    "confused_with": {}
-  },
-  "amount": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 4,
-    "confused_with": {}
-  },
-  "fixed-income": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 36,
-    "confused_with": {}
-  },
-  "q-type.stock": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 6,
-    "confused_with": {}
-  },
-  "end-up": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 4,
-    "confused_with": {}
-  },
-  "ebitda": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 1,
-    "confused_with": {}
-  },
-  "compound-interest": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 2,
-    "confused_with": {}
-  },
-  "income": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 3,
-    "confused_with": {}
-  },
-  "free-cash-flow": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 4,
-    "confused_with": {}
-  },
   "direct-treasure": {
     "precision": 1.0,
     "recall": 1.0,
@@ -188,39 +61,28 @@
     "support": 6,
     "confused_with": {}
   },
-  "fii": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 27,
-    "confused_with": {}
+  "real-interest": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2,
+    "confused_with": {
+      "income": 1,
+      "compound-interest": 1
+    }
   },
-  "marketplace": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 3,
-    "confused_with": {}
-  },
-  "trade": {
+  "rich": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 2,
     "confused_with": {}
   },
-  "nominal-interest": {
-    "precision": 1.0,
+  "invest": {
+    "precision": 0.9285714285714286,
     "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 2,
-    "confused_with": {}
-  },
-  "price": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 1,
+    "f1-score": 0.962962962962963,
+    "support": 13,
     "confused_with": {}
   },
   "produce": {
@@ -230,57 +92,194 @@
     "support": 3,
     "confused_with": {}
   },
+  "end-up": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "free-cash-flow": 1
+    }
+  },
+  "fii": {
+    "precision": 0.9629629629629629,
+    "recall": 0.9629629629629629,
+    "f1-score": 0.9629629629629629,
+    "support": 27,
+    "confused_with": {
+      "q-type.fii": 1
+    }
+  },
   "liquidity": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
     "support": 1,
-    "confused_with": {}
+    "confused_with": {
+      "fii": 1
+    }
   },
-  "invest": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 13,
-    "confused_with": {}
+  "saving": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1,
+    "confused_with": {
+      "stocks": 1
+    }
   },
-  "kinds": {
-    "precision": 0.8888888888888888,
-    "recall": 1.0,
-    "f1-score": 0.9411764705882353,
-    "support": 8,
-    "confused_with": {}
-  },
-  "rich": {
+  "trade": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 2,
     "confused_with": {}
   },
-  "tag": {
-    "precision": 1.0,
+  "income": {
+    "precision": 0.6,
     "recall": 1.0,
-    "f1-score": 1.0,
+    "f1-score": 0.7499999999999999,
+    "support": 3,
+    "confused_with": {}
+  },
+  "free-cash-flow": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "end-up": 1
+    }
+  },
+  "q-type.fii": {
+    "precision": 0.8,
+    "recall": 1.0,
+    "f1-score": 0.888888888888889,
+    "support": 4,
+    "confused_with": {}
+  },
+  "company": {
+    "precision": 0.6666666666666666,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.6666666666666666,
+    "support": 3,
+    "confused_with": {}
+  },
+  "nominal-interest": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2,
+    "confused_with": {
+      "real-interest": 2
+    }
+  },
+  "start": {
+    "precision": 0.8333333333333334,
+    "recall": 1.0,
+    "f1-score": 0.9090909090909091,
     "support": 5,
     "confused_with": {}
   },
-  "micro avg": {
-    "precision": 0.9919028340080972,
+  "fixed-income": {
+    "precision": 1.0,
     "recall": 1.0,
-    "f1-score": 0.9959349593495934,
-    "support": 245
+    "f1-score": 1.0,
+    "support": 36,
+    "confused_with": {}
+  },
+  "usage": {
+    "precision": 0.8333333333333334,
+    "recall": 0.7142857142857143,
+    "f1-score": 0.7692307692307692,
+    "support": 7,
+    "confused_with": {}
+  },
+  "amount": {
+    "precision": 0.8,
+    "recall": 1.0,
+    "f1-score": 0.888888888888889,
+    "support": 4,
+    "confused_with": {}
+  },
+  "compound-interest": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2,
+    "confused_with": {
+      "real-interest": 1
+    }
+  },
+  "ipo": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2,
+    "confused_with": {}
+  },
+  "q-type.stock": {
+    "precision": 0.6666666666666666,
+    "recall": 1.0,
+    "f1-score": 0.8,
+    "support": 6,
+    "confused_with": {}
+  },
+  "kinds": {
+    "precision": 0.7777777777777778,
+    "recall": 0.875,
+    "f1-score": 0.823529411764706,
+    "support": 8,
+    "confused_with": {}
+  },
+  "stocks": {
+    "precision": 0.625,
+    "recall": 0.5,
+    "f1-score": 0.5555555555555556,
+    "support": 10,
+    "confused_with": {
+      "emergency-saving": 2
+    }
+  },
+  "debts": {
+    "precision": 0.7,
+    "recall": 0.875,
+    "f1-score": 0.7777777777777777,
+    "support": 8,
+    "confused_with": {
+      "f-idx": 1
+    }
+  },
+  "emergency-saving": {
+    "precision": 0.8035714285714286,
+    "recall": 1.0,
+    "f1-score": 0.8910891089108911,
+    "support": 45,
+    "confused_with": {}
+  },
+  "place-question": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "micro avg": {
+    "precision": 0.8319672131147541,
+    "recall": 0.8423236514522822,
+    "f1-score": 0.8371134020618556,
+    "support": 241
   },
   "macro avg": {
-    "precision": 0.9937865497076023,
-    "recall": 1.0,
-    "f1-score": 0.9966976264189886,
-    "support": 245
+    "precision": 0.6371926548397137,
+    "recall": 0.6596949891067538,
+    "f1-score": 0.640961048492139,
+    "support": 241
   },
   "weighted avg": {
-    "precision": 0.9928004535147392,
-    "recall": 1.0,
-    "f1-score": 0.9961744697879151,
-    "support": 245
+    "precision": 0.7973901732200487,
+    "recall": 0.8423236514522822,
+    "f1-score": 0.8122312796912903,
+    "support": 241
   }
 }

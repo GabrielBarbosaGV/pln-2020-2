@@ -102,7 +102,7 @@ stories:
   - intent: definition
     entities:
     - stocks
-  - action: utter_what_fixed_income
+  - action: utter_what_stocks
   - intent: explanation
     entities:
     - invest

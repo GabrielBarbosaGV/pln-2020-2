@@ -173,16 +173,18 @@
     "text": "Quais os tipos de renda fixa?",
     "entities": [
       {
+        "text": "Quais os tipos de renda fixa?",
         "start": 9,
         "end": 14,
-        "value": "tipos",
-        "entity": "kinds"
+        "entity": "kinds",
+        "value": "tipos"
       },
       {
+        "text": "Quais os tipos de renda fixa?",
         "start": 18,
         "end": 28,
-        "value": "renda fixa",
-        "entity": "fixed-income"
+        "entity": "fixed-income",
+        "value": "renda fixa"
       }
     ],
     "predicted_entities": []

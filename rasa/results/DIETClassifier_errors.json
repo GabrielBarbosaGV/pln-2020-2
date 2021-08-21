@@ -1,5 +1,34 @@
 [
   {
+    "text": "Como definir a minha reserva de emergencia?",
+    "entities": [
+      {
+        "start": 21,
+        "end": 42,
+        "value": "reserva de emergencia",
+        "entity": "emergency-saving"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "emergency-saving",
+        "start": 5,
+        "end": 12,
+        "confidence_entity": 0.6888291835784912,
+        "value": "definir",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "emergency-saving",
+        "start": 21,
+        "end": 42,
+        "confidence_entity": 0.999505877494812,
+        "value": "reserva de emergencia",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
     "text": "Como usar a rendar fixa?",
     "entities": [
       {
@@ -14,7 +43,7 @@
         "entity": "usage",
         "start": 5,
         "end": 9,
-        "confidence_entity": 0.5888381004333496,
+        "confidence_entity": 0.9996788501739502,
         "value": "usar",
         "extractor": "DIETClassifier"
       },
@@ -22,8 +51,163 @@
         "entity": "fixed-income",
         "start": 12,
         "end": 23,
-        "confidence_entity": 0.9987674951553345,
+        "confidence_entity": 0.9998214840888977,
         "value": "rendar fixa",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Como não falir investindo em ação?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 25,
+        "value": "investindo",
+        "entity": "invest"
+      },
+      {
+        "start": 29,
+        "end": 33,
+        "value": "ação",
+        "entity": "stocks"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "invest",
+        "start": 15,
+        "end": 25,
+        "confidence_entity": 0.9968153834342957,
+        "value": "investindo",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "q-type",
+        "start": 29,
+        "end": 33,
+        "confidence_entity": 0.9987479448318481,
+        "role": "stock",
+        "confidence_role": 0.9987404942512512,
+        "value": "ação",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Quais são os dados necessários para avaliar empresas?",
+    "entities": [
+      {
+        "start": 36,
+        "end": 43,
+        "value": "avaliar",
+        "entity": "choose"
+      },
+      {
+        "start": 44,
+        "end": 52,
+        "value": "empresas",
+        "entity": "company"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "company",
+        "start": 44,
+        "end": 52,
+        "confidence_entity": 0.9894844889640808,
+        "value": "empresas",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Como se livrar de dívidas?",
+    "entities": [
+      {
+        "start": 8,
+        "end": 14,
+        "value": "livrar",
+        "entity": "end-up"
+      },
+      {
+        "start": 18,
+        "end": 25,
+        "value": "dívidas",
+        "entity": "debts"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "free-cash-flow",
+        "start": 8,
+        "end": 17,
+        "confidence_entity": 0.3846435546875,
+        "value": "livrar de",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "debts",
+        "start": 18,
+        "end": 25,
+        "confidence_entity": 0.9997572302818298,
+        "value": "dívidas",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Como superar as dívidas?",
+    "entities": [
+      {
+        "start": 5,
+        "end": 12,
+        "value": "superar",
+        "entity": "end-up"
+      },
+      {
+        "start": 16,
+        "end": 23,
+        "value": "dívidas",
+        "entity": "debts"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "debts",
+        "start": 16,
+        "end": 23,
+        "confidence_entity": 0.9997792840003967,
+        "value": "dívidas",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "O que constitui a reserva de emergência?",
+    "entities": [
+      {
+        "start": 18,
+        "end": 39,
+        "value": "reserva de emergência",
+        "entity": "emergency-saving"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "emergency-saving",
+        "start": 6,
+        "end": 15,
+        "confidence_entity": 0.3247130215167999,
+        "value": "constitui",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "emergency-saving",
+        "start": 18,
+        "end": 39,
+        "confidence_entity": 0.9994137287139893,
+        "value": "reserva de emergência",
         "extractor": "DIETClassifier"
       }
     ]
@@ -43,7 +227,7 @@
         "entity": "kinds",
         "start": 9,
         "end": 14,
-        "confidence_entity": 0.8471984267234802,
+        "confidence_entity": 0.9996378421783447,
         "value": "tipos",
         "extractor": "DIETClassifier"
       },
@@ -51,7 +235,995 @@
         "entity": "fixed-income",
         "start": 18,
         "end": 28,
-        "confidence_entity": 0.9994935989379883,
+        "confidence_entity": 0.9998306035995483,
+        "value": "renda fixa",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "O que é geração de caixa EBITDA?",
+    "entities": [
+      {
+        "start": 25,
+        "end": 31,
+        "value": "EBITDA",
+        "entity": "ebitda"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "q-type",
+        "start": 8,
+        "end": 15,
+        "confidence_entity": 0.9850782155990601,
+        "role": "stock",
+        "confidence_role": 0.9606066346168518,
+        "value": "geração",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "free-cash-flow",
+        "start": 16,
+        "end": 24,
+        "confidence_entity": 0.9804202318191528,
+        "value": "de caixa",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "income",
+        "start": 25,
+        "end": 31,
+        "confidence_entity": 0.43530356884002686,
+        "value": "EBITDA",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Como usar a reserva de emergencia",
+    "entities": [
+      {
+        "start": 5,
+        "end": 9,
+        "value": "usar",
+        "entity": "usage"
+      },
+      {
+        "start": 12,
+        "end": 33,
+        "value": "reserva de emergencia",
+        "entity": "emergency-saving"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "emergency-saving",
+        "start": 12,
+        "end": 33,
+        "confidence_entity": 0.9996236562728882,
+        "value": "reserva de emergencia",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Como escolher boas empresas para investir?",
+    "entities": [
+      {
+        "start": 5,
+        "end": 13,
+        "value": "escolher",
+        "entity": "choose"
+      },
+      {
+        "start": 19,
+        "end": 27,
+        "value": "empresas",
+        "entity": "company"
+      },
+      {
+        "start": 33,
+        "end": 41,
+        "value": "investir",
+        "entity": "invest"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "choose",
+        "start": 5,
+        "end": 13,
+        "confidence_entity": 0.9995645880699158,
+        "value": "escolher",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "invest",
+        "start": 33,
+        "end": 41,
+        "confidence_entity": 0.9998874664306641,
+        "value": "investir",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Como usar a renda fixa?",
+    "entities": [
+      {
+        "start": 5,
+        "end": 9,
+        "value": "usar",
+        "entity": "usage"
+      },
+      {
+        "start": 12,
+        "end": 22,
+        "value": "renda fixa",
+        "entity": "fixed-income"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fixed-income",
+        "start": 12,
+        "end": 22,
+        "confidence_entity": 0.9998934268951416,
+        "value": "renda fixa",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Utilizar dinheiro da reserva de emergencia é falta de planejamento?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "Utilizar",
+        "entity": "usage"
+      },
+      {
+        "start": 21,
+        "end": 42,
+        "value": "reserva de emergencia",
+        "entity": "emergency-saving"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "usage",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.7201277613639832,
+        "value": "Utilizar",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "emergency-saving",
+        "start": 21,
+        "end": 42,
+        "confidence_entity": 0.9996091723442078,
+        "value": "reserva de emergencia",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "emergency-saving",
+        "start": 45,
+        "end": 66,
+        "confidence_entity": 0.24169906973838806,
+        "value": "falta de planejamento",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "O que são os juros compostos?",
+    "entities": [
+      {
+        "start": 13,
+        "end": 28,
+        "value": "juros compostos",
+        "entity": "compound-interest"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "real-interest",
+        "start": 13,
+        "end": 18,
+        "confidence_entity": 0.503510594367981,
+        "value": "juros",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Por que devemos guardar a reserva de emergência na poupança?",
+    "entities": [
+      {
+        "start": 26,
+        "end": 47,
+        "value": "reserva de emergência",
+        "entity": "emergency-saving"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "emergency-saving",
+        "start": 26,
+        "end": 47,
+        "confidence_entity": 0.9993069171905518,
+        "value": "reserva de emergência",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "stocks",
+        "start": 51,
+        "end": 59,
+        "confidence_entity": 0.3378620147705078,
+        "value": "poupança",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Quanto deixo guardado na Reserva de emergencia?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "Quanto",
+        "entity": "amount"
+      },
+      {
+        "start": 25,
+        "end": 46,
+        "value": "Reserva de emergencia",
+        "entity": "emergency-saving"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "amount",
+        "start": 0,
+        "end": 12,
+        "confidence_entity": 0.9917193651199341,
+        "value": "Quanto deixo",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "emergency-saving",
+        "start": 25,
+        "end": 46,
+        "confidence_entity": 0.9994783997535706,
+        "value": "Reserva de emergencia",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Por que não deixar a reserva de emergência no tesouro direto?",
+    "entities": [
+      {
+        "start": 21,
+        "end": 42,
+        "value": "reserva de emergência",
+        "entity": "emergency-saving"
+      },
+      {
+        "start": 46,
+        "end": 60,
+        "value": "tesouro direto",
+        "entity": "direct-treasure"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "emergency-saving",
+        "start": 12,
+        "end": 18,
+        "confidence_entity": 0.8932315111160278,
+        "value": "deixar",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "emergency-saving",
+        "start": 21,
+        "end": 42,
+        "confidence_entity": 0.9976515173912048,
+        "value": "reserva de emergência",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "direct-treasure",
+        "start": 46,
+        "end": 60,
+        "confidence_entity": 0.996896505355835,
+        "value": "tesouro direto",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Nunca mexo na reserva, para que colocar em poupança?",
+    "entities": [
+      {
+        "start": 43,
+        "end": 51,
+        "value": "poupança",
+        "entity": "saving"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "emergency-saving",
+        "start": 14,
+        "end": 21,
+        "confidence_entity": 0.9998056292533875,
+        "value": "reserva",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "stocks",
+        "start": 43,
+        "end": 51,
+        "confidence_entity": 0.495489239692688,
+        "value": "poupança",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "oq eh divida?",
+    "entities": [
+      {
+        "start": 6,
+        "end": 12,
+        "value": "divida",
+        "entity": "debts"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "f-idx",
+        "start": 6,
+        "end": 12,
+        "confidence_entity": 0.9474261999130249,
+        "value": "divida",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "O que é liquidez?",
+    "entities": [
+      {
+        "start": 8,
+        "end": 16,
+        "value": "liquidez",
+        "entity": "liquidity"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fii",
+        "start": 8,
+        "end": 16,
+        "confidence_entity": 0.1499103307723999,
+        "value": "liquidez",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "O que são juros nominais?",
+    "entities": [
+      {
+        "start": 10,
+        "end": 24,
+        "value": "juros nominais",
+        "entity": "nominal-interest"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "real-interest",
+        "start": 10,
+        "end": 24,
+        "confidence_entity": 0.23564347624778748,
+        "value": "juros nominais",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Agora é a hora da renda fixa?",
+    "entities": [
+      {
+        "start": 18,
+        "end": 28,
+        "value": "renda fixa",
+        "entity": "fixed-income"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "q-type",
+        "start": 15,
+        "end": 17,
+        "confidence_entity": 0.9839739203453064,
+        "role": "stock",
+        "confidence_role": 0.9888730645179749,
+        "value": "da",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "fixed-income",
+        "start": 18,
+        "end": 28,
+        "confidence_entity": 0.9780517220497131,
+        "value": "renda fixa",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Como escolher boas empresas para comprar acoes?",
+    "entities": [
+      {
+        "start": 5,
+        "end": 13,
+        "value": "escolher",
+        "entity": "choose"
+      },
+      {
+        "start": 41,
+        "end": 46,
+        "value": "acoes",
+        "entity": "stocks"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "choose",
+        "start": 5,
+        "end": 13,
+        "confidence_entity": 0.9995918869972229,
+        "value": "escolher",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "company",
+        "start": 19,
+        "end": 27,
+        "confidence_entity": 0.9991594552993774,
+        "value": "empresas",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "start",
+        "start": 33,
+        "end": 40,
+        "confidence_entity": 0.783790647983551,
+        "value": "comprar",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "stocks",
+        "start": 41,
+        "end": 46,
+        "confidence_entity": 0.9991090893745422,
+        "value": "acoes",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Como acabar as dívidas?",
+    "entities": [
+      {
+        "start": 5,
+        "end": 11,
+        "value": "acabar",
+        "entity": "end-up"
+      },
+      {
+        "start": 15,
+        "end": 22,
+        "value": "dívidas",
+        "entity": "debts"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "debts",
+        "start": 15,
+        "end": 22,
+        "confidence_entity": 0.999834418296814,
+        "value": "dívidas",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Como terminar as dívidas?",
+    "entities": [
+      {
+        "start": 5,
+        "end": 13,
+        "value": "terminar",
+        "entity": "end-up"
+      },
+      {
+        "start": 17,
+        "end": 24,
+        "value": "dívidas",
+        "entity": "debts"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "debts",
+        "start": 17,
+        "end": 24,
+        "confidence_entity": 0.9998248219490051,
+        "value": "dívidas",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Qual o p/vp da ação flry3?",
+    "entities": [
+      {
+        "start": 7,
+        "end": 11,
+        "value": "p/vp",
+        "entity": "f-idx"
+      },
+      {
+        "start": 12,
+        "end": 19,
+        "value": "da ação",
+        "entity": "q-type",
+        "role": "stock"
+      },
+      {
+        "start": 20,
+        "end": 25,
+        "value": "flry3",
+        "entity": "tag"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "q-type",
+        "start": 12,
+        "end": 19,
+        "confidence_entity": 0.9982516169548035,
+        "role": "stock",
+        "confidence_role": 0.9965267777442932,
+        "value": "da ação",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "tag",
+        "start": 20,
+        "end": 25,
+        "confidence_entity": 0.4249919652938843,
+        "value": "flry3",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "O que são ações unit?",
+    "entities": [
+      {
+        "start": 10,
+        "end": 20,
+        "value": "ações unit",
+        "entity": "stocks"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "O que é fundo de investimento em imoveis?",
+    "entities": [
+      {
+        "start": 8,
+        "end": 40,
+        "value": "fundo de investimento em imoveis",
+        "entity": "fii"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "q-type",
+        "start": 8,
+        "end": 13,
+        "confidence_entity": 0.9666352868080139,
+        "role": "fii",
+        "confidence_role": 0.982160210609436,
+        "value": "fundo",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "fii",
+        "start": 14,
+        "end": 40,
+        "confidence_entity": 0.9979065656661987,
+        "value": "de investimento em imoveis",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Quanto devo ter na reserva de emergência?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "Quanto",
+        "entity": "amount"
+      },
+      {
+        "start": 19,
+        "end": 40,
+        "value": "reserva de emergência",
+        "entity": "emergency-saving"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "amount",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9994660019874573,
+        "value": "Quanto",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "emergency-saving",
+        "start": 12,
+        "end": 15,
+        "confidence_entity": 0.639056921005249,
+        "value": "ter",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "emergency-saving",
+        "start": 19,
+        "end": 40,
+        "confidence_entity": 0.9995456337928772,
+        "value": "reserva de emergência",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "O que é essencial para começar a investir?",
+    "entities": [
+      {
+        "start": 23,
+        "end": 30,
+        "value": "começar",
+        "entity": "start"
+      },
+      {
+        "start": 33,
+        "end": 41,
+        "value": "investir",
+        "entity": "invest"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "emergency-saving",
+        "start": 8,
+        "end": 17,
+        "confidence_entity": 0.9752755165100098,
+        "value": "essencial",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "start",
+        "start": 23,
+        "end": 30,
+        "confidence_entity": 0.9991773962974548,
+        "value": "começar",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "invest",
+        "start": 33,
+        "end": 41,
+        "confidence_entity": 0.9998676776885986,
+        "value": "investir",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Qual o dividend yield do fundo hglg11?",
+    "entities": [
+      {
+        "start": 7,
+        "end": 21,
+        "value": "dividend yield",
+        "entity": "f-idx"
+      },
+      {
+        "start": 22,
+        "end": 30,
+        "value": "do fundo",
+        "entity": "q-type",
+        "role": "fii"
+      },
+      {
+        "start": 31,
+        "end": 37,
+        "value": "hglg11",
+        "entity": "tag"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "debts",
+        "start": 7,
+        "end": 15,
+        "confidence_entity": 0.9763327240943909,
+        "value": "dividend",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "q-type",
+        "start": 16,
+        "end": 21,
+        "confidence_entity": 0.5136889219284058,
+        "value": "yield",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "q-type",
+        "start": 22,
+        "end": 30,
+        "confidence_entity": 0.9056416153907776,
+        "role": "fii",
+        "confidence_role": 0.9764648079872131,
+        "value": "do fundo",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "tag",
+        "start": 31,
+        "end": 37,
+        "confidence_entity": 0.9979538917541504,
+        "value": "hglg11",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Qual o dividend yield da ação taee4?",
+    "entities": [
+      {
+        "start": 7,
+        "end": 21,
+        "value": "dividend yield",
+        "entity": "f-idx"
+      },
+      {
+        "start": 22,
+        "end": 29,
+        "value": "da ação",
+        "entity": "q-type",
+        "role": "stock"
+      },
+      {
+        "start": 30,
+        "end": 35,
+        "value": "taee4",
+        "entity": "tag"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "debts",
+        "start": 7,
+        "end": 15,
+        "confidence_entity": 0.9721330404281616,
+        "value": "dividend",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "q-type",
+        "start": 22,
+        "end": 29,
+        "confidence_entity": 0.9957292675971985,
+        "role": "stock",
+        "confidence_role": 0.996068000793457,
+        "value": "da ação",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "q-type",
+        "start": 30,
+        "end": 35,
+        "confidence_entity": 0.32750657200813293,
+        "value": "taee4",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Para que as bolsas de valores foram criadas?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 29,
+        "value": "bolsas de valores",
+        "entity": "marketplace"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "debts",
+        "start": 36,
+        "end": 43,
+        "confidence_entity": 0.39620980620384216,
+        "value": "criadas",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "O que são juros reais?",
+    "entities": [
+      {
+        "start": 10,
+        "end": 21,
+        "value": "juros reais",
+        "entity": "real-interest"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "compound-interest",
+        "start": 10,
+        "end": 15,
+        "confidence_entity": 0.5791227221488953,
+        "value": "juros",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "income",
+        "start": 16,
+        "end": 21,
+        "confidence_entity": 0.10318277031183243,
+        "value": "reais",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Quais os tipos de tesouro direto?",
+    "entities": [
+      {
+        "start": 18,
+        "end": 32,
+        "value": "tesouro direto",
+        "entity": "direct-treasure"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "kinds",
+        "start": 9,
+        "end": 14,
+        "confidence_entity": 0.5268914699554443,
+        "value": "tipos",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "direct-treasure",
+        "start": 18,
+        "end": 32,
+        "confidence_entity": 0.9990894794464111,
+        "value": "tesouro direto",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "O que são [ações ordinárias]](stocks)?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "stocks",
+        "start": 11,
+        "end": 16,
+        "confidence_entity": 0.9863529205322266,
+        "value": "ações",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "invest",
+        "start": 17,
+        "end": 36,
+        "confidence_entity": 0.4005568027496338,
+        "value": "ordinárias]](stocks",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "O que são ações preferenciais?",
+    "entities": [
+      {
+        "start": 10,
+        "end": 29,
+        "value": "ações preferenciais",
+        "entity": "stocks"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "emergency-saving",
+        "start": 10,
+        "end": 29,
+        "confidence_entity": 0.66,
+        "value": "ações preferenciais",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "O que é fluxo de caixa livre?",
+    "entities": [
+      {
+        "start": 8,
+        "end": 28,
+        "value": "fluxo de caixa livre",
+        "entity": "free-cash-flow"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "end-up",
+        "start": 23,
+        "end": 28,
+        "confidence_entity": 0.2960394620895386,
+        "value": "livre",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "quais os tipo de renda fixa?",
+    "entities": [
+      {
+        "start": 9,
+        "end": 13,
+        "value": "tipo",
+        "entity": "kinds"
+      },
+      {
+        "start": 17,
+        "end": 27,
+        "value": "renda fixa",
+        "entity": "fixed-income"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fixed-income",
+        "start": 17,
+        "end": 27,
+        "confidence_entity": 0.9998445510864258,
         "value": "renda fixa",
         "extractor": "DIETClassifier"
       }
