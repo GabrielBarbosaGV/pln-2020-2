@@ -320,15 +320,6 @@ responses:
         Juros compostos são taxas aplicadas sobre empréstimos de forma recorrente, em que a porcentagem de acréscimo
         do valor em cada taxação é calculada sobre o último, gerando um crescimento exponencial.
 
-    utter_what_are_debts:
-    - text: |-
-        Dívidas são compromissos a serem encerrados através do pagamento de valores combinados.
-
-    utter_what_are_emergency_savings:
-    - text: |-
-        A reserva de emergência é um valor, ou, de forma mais abstrata, recursos designados para situações
-        imprevistas.
-
     utter_what_is_liquidity:
     - text: |-
         Liquidez, em contabilidade, corresponde à velocidade e facilidade com a qual um ativo pode ser
