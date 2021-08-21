@@ -3,7 +3,7 @@ from .parser import StatusInvestParser
 
 class StatusInvestAPI:
     def __init__(self):
-        self.crawler = StatusInvestCrawler(None)
+        self.crawler = StatusInvestCrawler()
         self.parser = StatusInvestParser()
 
     def query(self, tag_type, tag):

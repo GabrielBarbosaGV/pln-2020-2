@@ -9,7 +9,7 @@ class StatusInvestParserStock(AbstractParser):
   def get_cnpj(self, bs):
     return bs.find('div', {'class': 'company-description'}).find('small').string
 
-  def get_indicators(self, bs, indicators = ['P/L', 'D.Y', 'VPA', 'Dív. líquida/PL']):
+  def get_indicators(self, bs, indicators = ['P/L', 'D.Y', 'VPA', 'Dív. líquida/PL', 'P/VP']):
     def filter_indicators(tag):
       return tag.find('h3', {'class': 'title'}).string in indicators
 
