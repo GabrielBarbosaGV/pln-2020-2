@@ -57,7 +57,7 @@ stories:
       entities:
       - usage
       - emergency-saving 
-    - intent: definition
+    - intent: instruction
       entities:
       - usage
       - emergency-saving

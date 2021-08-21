@@ -1,5 +1,34 @@
 [
   {
+    "text": "Por que devemos guardar a reserva de emergência na poupança?",
+    "entities": [
+      {
+        "start": 26,
+        "end": 47,
+        "value": "reserva de emergência",
+        "entity": "emergency-saving"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "emergency-saving",
+        "start": 26,
+        "end": 47,
+        "confidence_entity": 0.9964774250984192,
+        "value": "reserva de emergência",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "saving",
+        "start": 51,
+        "end": 59,
+        "confidence_entity": 0.5612747669219971,
+        "value": "poupança",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
     "text": "Como usar a rendar fixa?",
     "entities": [
       {
@@ -14,7 +43,7 @@
         "entity": "usage",
         "start": 5,
         "end": 9,
-        "confidence_entity": 0.6745176315307617,
+        "confidence_entity": 0.7624641060829163,
         "value": "usar",
         "extractor": "DIETClassifier"
       },
@@ -22,8 +51,51 @@
         "entity": "fixed-income",
         "start": 12,
         "end": 23,
-        "confidence_entity": 0.9966585636138916,
+        "confidence_entity": 0.9976814985275269,
         "value": "rendar fixa",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Como escolher boas empresas para comprar acoes?",
+    "entities": [
+      {
+        "start": 5,
+        "end": 13,
+        "value": "escolher",
+        "entity": "choose"
+      },
+      {
+        "start": 41,
+        "end": 46,
+        "value": "acoes",
+        "entity": "stocks"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "choose",
+        "start": 5,
+        "end": 13,
+        "confidence_entity": 0.9969905614852905,
+        "value": "escolher",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "company",
+        "start": 19,
+        "end": 27,
+        "confidence_entity": 0.6081215739250183,
+        "value": "empresas",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "stocks",
+        "start": 41,
+        "end": 46,
+        "confidence_entity": 0.9986076951026917,
+        "value": "acoes",
         "extractor": "DIETClassifier"
       }
     ]
@@ -49,7 +121,7 @@
         "entity": "usage",
         "start": 0,
         "end": 8,
-        "confidence_entity": 0.9968701004981995,
+        "confidence_entity": 0.9983807802200317,
         "value": "Utilizar",
         "extractor": "DIETClassifier"
       },
@@ -57,7 +129,7 @@
         "entity": "emergency-saving",
         "start": 21,
         "end": 42,
-        "confidence_entity": 0.983223021030426,
+        "confidence_entity": 0.9853246808052063,
         "value": "reserva de emergencia",
         "extractor": "DIETClassifier"
       },
@@ -65,23 +137,11 @@
         "entity": "emergency-saving",
         "start": 51,
         "end": 53,
-        "confidence_entity": 0.8831472992897034,
+        "confidence_entity": 0.7238353490829468,
         "value": "de",
         "extractor": "DIETClassifier"
       }
     ]
-  },
-  {
-    "text": "Nunca mexo na reserva, para que colocar em poupança?",
-    "entities": [
-      {
-        "start": 43,
-        "end": 51,
-        "value": "poupança",
-        "entity": "saving"
-      }
-    ],
-    "predicted_entities": []
   },
   {
     "text": "Quais os tipos de tesouro direto?",
@@ -98,7 +158,7 @@
         "entity": "kinds",
         "start": 9,
         "end": 14,
-        "confidence_entity": 0.5663179159164429,
+        "confidence_entity": 0.5669377446174622,
         "value": "tipos",
         "extractor": "DIETClassifier"
       },
@@ -106,7 +166,7 @@
         "entity": "direct-treasure",
         "start": 18,
         "end": 32,
-        "confidence_entity": 0.9964430928230286,
+        "confidence_entity": 0.9966200590133667,
         "value": "tesouro direto",
         "extractor": "DIETClassifier"
       }
@@ -127,7 +187,7 @@
         "entity": "kinds",
         "start": 9,
         "end": 14,
-        "confidence_entity": 0.8388503193855286,
+        "confidence_entity": 0.7670964002609253,
         "value": "tipos",
         "extractor": "DIETClassifier"
       },
@@ -135,37 +195,8 @@
         "entity": "fixed-income",
         "start": 18,
         "end": 28,
-        "confidence_entity": 0.9899740815162659,
+        "confidence_entity": 0.9927634596824646,
         "value": "renda fixa",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "tipos de [renda fixa](fixed-income?",
-    "entities": [
-      {
-        "start": 0,
-        "end": 5,
-        "value": "tipos",
-        "entity": "kinds"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "kinds",
-        "start": 0,
-        "end": 5,
-        "confidence_entity": 0.7840149998664856,
-        "value": "tipos",
-        "extractor": "DIETClassifier"
-      },
-      {
-        "entity": "fixed-income",
-        "start": 10,
-        "end": 15,
-        "confidence_entity": 0.5065122246742249,
-        "value": "renda",
         "extractor": "DIETClassifier"
       }
     ]

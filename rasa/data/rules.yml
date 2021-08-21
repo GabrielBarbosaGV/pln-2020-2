@@ -14,7 +14,9 @@ rules:
 
 - rule: What?!
   steps:
-  - intent: nlu_fallback
+  - or:
+    - intent: nlu_fallback
+    - intent: out_of_scope
   - action: utter_out_of_scope
 
 - rule: start to invest
