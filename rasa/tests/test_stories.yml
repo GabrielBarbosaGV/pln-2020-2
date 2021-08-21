@@ -37,7 +37,7 @@ stories:
 - story: emergency saving path 1
   steps:
   - user: |
-      O que é a [reserva de emergencia](emergency-saving)?
+      O que é [reserva de emergencia](emergency-saving)?
     intent: definition
   - action: utter_what_emergency_saving
   - user: |
@@ -75,3 +75,22 @@ stories:
       Quais os [tipos](kinds) de [renda fixa](fixed-income)?
     intent: definition
   - action: utter_kinds_fixed_income
+
+- story: about stocks path 1
+  steps:
+  - user: |
+      O que são [ações](stocks)?
+    intent: definition
+  - action: utter_what_fixed_income
+  - user: |
+      Pq [investir](invest) em [ações](stocks)?
+    intent: explanation
+  - action: utter_why_invest_stocks
+  - user: |
+      Como [escolher](choose) boas [ações](stocks)?
+    intent: instruction
+  - action: utter_how_choose_stocks
+  - user: |
+      Como [escolher](choose) boas [empresas](company)?
+    intent: instruction
+  - action: utter_how_choose_companies

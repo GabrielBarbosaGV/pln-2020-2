@@ -30,11 +30,11 @@
     "predicted_entities": []
   },
   {
-    "text": "O que é a reserva de emergencia?",
+    "text": "O que é reserva de emergencia?",
     "entities": [
       {
-        "start": 10,
-        "end": 31,
+        "start": 8,
+        "end": 29,
         "value": "reserva de emergencia",
         "entity": "emergency-saving"
       }
@@ -71,6 +71,24 @@
       {
         "start": 14,
         "end": 35,
+        "value": "reserva de emergencia",
+        "entity": "emergency-saving"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Como utilizar a reserva de emergencia?",
+    "entities": [
+      {
+        "start": 5,
+        "end": 13,
+        "value": "utilizar",
+        "entity": "usage"
+      },
+      {
+        "start": 16,
+        "end": 37,
         "value": "reserva de emergencia",
         "entity": "emergency-saving"
       }
@@ -165,6 +183,72 @@
         "end": 28,
         "value": "renda fixa",
         "entity": "fixed-income"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "O que são ações?",
+    "entities": [
+      {
+        "start": 10,
+        "end": 15,
+        "value": "ações",
+        "entity": "stocks"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Pq investir em ações?",
+    "entities": [
+      {
+        "start": 3,
+        "end": 11,
+        "value": "investir",
+        "entity": "invest"
+      },
+      {
+        "start": 15,
+        "end": 20,
+        "value": "ações",
+        "entity": "stocks"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Como escolher boas ações?",
+    "entities": [
+      {
+        "start": 5,
+        "end": 13,
+        "value": "escolher",
+        "entity": "choose"
+      },
+      {
+        "start": 19,
+        "end": 24,
+        "value": "ações",
+        "entity": "stocks"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Como escolher boas empresas?",
+    "entities": [
+      {
+        "start": 5,
+        "end": 13,
+        "value": "escolher",
+        "entity": "choose"
+      },
+      {
+        "start": 19,
+        "end": 27,
+        "value": "empresas",
+        "entity": "company"
       }
     ],
     "predicted_entities": []

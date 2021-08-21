@@ -1,5 +1,26 @@
 {
-  "amount": {
+  "place-question": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1,
+    "confused_with": {}
+  },
+  "usage": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2,
+    "confused_with": {}
+  },
+  "company": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1,
+    "confused_with": {}
+  },
+  "start": {
     "precision": 0.0,
     "recall": 0.0,
     "f1-score": 0.0,
@@ -13,14 +34,42 @@
     "support": 1,
     "confused_with": {}
   },
-  "income": {
+  "invest": {
     "precision": 0.0,
     "recall": 0.0,
     "f1-score": 0.0,
     "support": 1,
     "confused_with": {}
   },
-  "usage": {
+  "stocks": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {}
+  },
+  "emergency-saving": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 12,
+    "confused_with": {}
+  },
+  "debts": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2,
+    "confused_with": {}
+  },
+  "choose": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2,
+    "confused_with": {}
+  },
+  "amount": {
     "precision": 0.0,
     "recall": 0.0,
     "f1-score": 0.0,
@@ -41,35 +90,14 @@
     "support": 10,
     "confused_with": {}
   },
+  "income": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1,
+    "confused_with": {}
+  },
   "end-up": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 1,
-    "confused_with": {}
-  },
-  "emergency-saving": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 9,
-    "confused_with": {}
-  },
-  "start": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 1,
-    "confused_with": {}
-  },
-  "debts": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 2,
-    "confused_with": {}
-  },
-  "place-question": {
     "precision": 0.0,
     "recall": 0.0,
     "f1-score": 0.0,
@@ -80,18 +108,18 @@
     "precision": 0.0,
     "recall": 0.0,
     "f1-score": 0.0,
-    "support": 29
+    "support": 40
   },
   "macro avg": {
     "precision": 0.0,
     "recall": 0.0,
     "f1-score": 0.0,
-    "support": 29
+    "support": 40
   },
   "weighted avg": {
     "precision": 0.0,
     "recall": 0.0,
     "f1-score": 0.0,
-    "support": 29
+    "support": 40
   }
 }

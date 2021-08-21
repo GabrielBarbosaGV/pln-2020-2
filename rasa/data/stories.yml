@@ -96,3 +96,30 @@ stories:
     - fixed-income
     - kinds
   - action: utter_kinds_fixed_income
+
+- story: about stocks
+  steps:
+  - intent: definition
+    entities:
+    - stocks
+  - action: utter_what_fixed_income
+  - intent: explanation
+    entities:
+    - invest
+    - stocks
+  - action: utter_why_invest_stocks
+  - or:
+    - intent: instruction
+      entities:
+      - choose
+      - stocks
+    - intent: instruction
+      entities:
+      - invest
+      - stocks
+  - action: utter_how_choose_stocks
+  - intent: instruction
+    entities:
+    - choose
+    - company
+  - action: utter_how_choose_companies

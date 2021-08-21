@@ -10,7 +10,6 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
-  - out_of_scope
   - instruction
   - explanation
   - comparison
@@ -56,6 +55,7 @@ entities:
     - produce
     - tag
     - f-idx
+    - choose
     - q-type:
         roles:
             - stock
@@ -233,5 +233,43 @@ responses:
         Para isso, as instituições fazem empréstimos entre elas. Há uma taxa de juros e também a emissão de títulos de curtíssimo prazo (1 dia). 
 
         Assim, é feita uma média ponderada e ajustada que é divulgada diariamente. Ela é a taxa Selic Overnight. No ano, ela é a taxa Selic anual. 
+
+    utter_what_stocks:
+    - text: |-
+        Se uma empresa fosse um bolo, as ações seriam pequeninas fatias que podem ser compradas por qualquer pessoa interessada em ter seu pedaço do doce.
+
+        Para isso acontecer, a empresa precisa ser uma Sociedade Anônima de Capital Aberto e estar devidamente registrada na Comissão de Valores Mobiliários (CVM), órgão estatal responsável por regular e fiscalizar o mercado de valores mobiliários brasileiros.
+
+        As ações de uma empresa são comercializadas na Bolsa de Valores: um mercado onde são negociados títulos emitidos por companhias de capital aberto e outros ativos. De forma geral, essa é uma maneira de captar dinheiro para investir no negócio e elevar o valor de mercado da empresa.
+
+        Quem compra uma ou mais ações de uma empresa se torna sócio do negócio. Com isso, o acionista ganha direitos e deveres sobre a companhia, incluindo receber parte de seus lucros.
+
+        Investir em ações é uma das formas mais acertivas para alcançar a tão sonhada liberdade financeira, pois esse tipo de investimento proporciona bons redimentos e riscos moderado quando escolhidas boas ações.
+    
+    utter_why_invest_stocks:
+    - text: |-
+        O retorno de ser sócio de boas empresas no longo prazo tende a ser extraordinário e a contribuir de forma expressiva para o patrimônio e a tranquilidade financeira. Mas para isso é necessário compreender bem o conceito de ser sócio. Não compre um papel, não caia na ilusão de fazer trade, não tente ganhar na variação de preço. Torne-se sócio de boas empresas o que permite beneficiar do crescimento e/ou distribuição de lucros. Não possuímos um papel, umas ações compradas a X, possuímos participação em uma empresa como sócio. É fundamental fazer essa distinção e compreender isso para ter sucesso e realmente aumentar seu patrimônio com ações. Quando entende que é sócio e não que tem uma ação, para de focar em cotação e foca na qualidade da empresa.
+
+        Se olharmos para ações do Bradesco desde os anos 60 com um crescimento anual médio de 18%. Para quem guarda as ações esses juros se tornam compostos. Quem ficou com essas ações desde os anos 70/80 está com um retorno extraordinário. Nos últimos 24 anos acumula 100 mil por cento!
+
+    utter_how_choose_stocks:
+    - text: |-
+        Diferente do que a maioria pensa não é difícil ter e manter uma boa carteira de ações e não precisa de estudos de horas e horas e nem ser um expert no assunto. Na verdade, é ao contrário, normalmente menos é mais e se dedicar ao seu trabalho e só gastar pouco tempo com os investimentos, tende a levar a mais patrimônio, especialmente em ações. O grande ganho vem de comprar ações de boas empresas e sentar nelas por décadas. Os poucos que enriqueceram com ações foi assim. O grande ganho desses bilionários da Bolsa vem deles terem comprado ações de empresas que já existiam nos anos 70/80 e guardarem até hoje...
+
+        Para escolher empresas boas, não é tão difícil como parece. Primeiro é importante diversificar bastante. Quanto mais empresas, menor o risco do erro, claro com o devido bom senso. Algo como 20 a 30 empresas, desde que tenha outros investimentos, faz com que o risco por empresa no seu patrimônio seja bem baixo e permite se manter sócio durante os períodos ruins das boas empresas, pois a perda no seu patrimônio não é expressiva. O ideal mesmo é nem acompanhar muito e nem saber que está caindo ou ficar perdendo tempo com notícias. Foque no seu trabalho.
+
+        O que é fundamental na escolha de empresas para ser sócio:
+
+        - Possuir ONs com boa liquidez, ou seja, a empresa oferecer ações ordinárias (ONs), com direito a votos, em boa quantidade que permita que hajam muitos negócios por dia. O ideal mesmo é que só tenha ONs e de preferência participando do Novo Mercado. Isso não garante que a empresa seja boa, mas ao menos demonstra boas práticas de governança e te permite ser sócio com alguma tranquilidade. Esqueça PNs e UNITs que são ativos em que mesmo comprando, você não é propriamente sócio.
+        - Produzir dinheiro de forma eficiente. Isso se vê através dos lucros consistentes, sem os quais não adianta ser sócio, mas também pela geração de caixa EBITDA e pelo fluxo de caixa livre (De preferência o Fluxo de Caixa Livre CAPEX que não distorce por aplicações financeiras). Em suma, se a empresa faz dinheiro de forma eficiente. As empresas eficientes conseguem isso sem constantemente ter de investir quantias enormes e/ou se endividar.
+        - A empresa não se enrola com dívidas mantendo caixa e dívida equilibrados. Se não tem dívida ou se a dívida liquida (Dívida bruta – Caixa) é negativa (caixa maior que dívida bruta), considera-se empresa sem dívida e nem há o que analisar. Se a empresa possui dívida líquida positiva, deve-se analisar o equilíbrio da mesma porque só ter dívida não faz de uma empresa ruim. Diferente de pessoas física, empresas podem até se beneficiar de dívidas. De todos os dados de análise o mais usado e eficiente é a divisão da dívida liquida pelo EBITDA sendo que normalmente se deseja que o resultado seja abaixo de 2, sendo tolerado até 3 e em algumas empresas com receita garantida até mais que isso. Para quem está começando e não tem muita experiência com análise de empresas, tente não aceitar empresas com esse número maior do que 2. Isso não quer dizer que tenha de sair de empresas boas que entrou quando o número estava abaixo, e que agora por ventura aumentou. Observe e acompanhe, só saia de empresas realmente ruins, com muita calma e aos poucos.
+        - Afaste-se de empresas com problemas evidentes. Governança é muito difícil de avaliar, mas há empresas que é bem claro que há problemas.
+
+    utter_how_choose_companies:
+    - text: |-
+        OS DADOS NECESSÁRIOS PARA ANÁLISE DE EMPRESAS: receita, EBITDA, lucro, já descontado dos não recorrentes (eventos esporádicos), margem líquida (lucro/receita), dívida líquida, dívida líquida/EBITDA e fluxo de caixa líquido CAPEX. Com esses dados pode-se avaliar a evolução dos balanços da empresa no que diz respeito a eficiência com que ela produz dinheiro e se mantem caixa e dívida equilibrados. Todos dados retirados dos balanços oficiais auditados entregues a Bovespa e a CVM.
+
+        Para quem se dedica ao seu trabalho e faz uma carteira diversificada estes dados acima são mais do que suficientes para selecionar boas empresas.
+
 actions:
     - action_get_information

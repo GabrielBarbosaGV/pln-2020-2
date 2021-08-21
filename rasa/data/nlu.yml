@@ -68,12 +68,12 @@ nlu:
     - Por [onde](place-question) [comecar](start) a [investir](invest)?
     - Como usar a [rendar fixa](fixed-income)?
     - Como [usar](usage) a [reserva de emergencia](emergency-saving)
-    - O que precisamos saber para investir em [ações](stocks)?
-    - Como escolher boas empresas para comprar [acoes](stocks)?
-    - Como não falir investindo em [ação](stocks)?
-    - Como escolher boas [empresas](company) para [investir](invest)?
+    - O que precisamos saber para [investir](invest) em [ações](stocks)?
+    - Como [escolher](choose) boas empresas para comprar [acoes](stocks)?
+    - Como não falir [investindo](invest) em [ação](stocks)?
+    - Como [escolher](choose) boas [empresas](company) para [investir](invest)?
     - Como verificar se uma [empresa](company) é boa para [investir](invest)?
-    - Quais são os dados necessários para avaliar [empresas](company)?
+    - Quais são os dados necessários para [avaliar](choose) [empresas](company)?
     - Qual passo a passo para [investir](invest)?
     - Como [comecar](start) a [investir](invest)?
     - [Quanto](amount) devo colocar?
@@ -94,11 +94,12 @@ nlu:
     - Qual o [p/vp](f-idx) [da ação]{"entity": "q-type", "role": "stock"} [flry3](tag)?
     - Qual o [dividend yield](f-idx) [do fundo]{"entity": "q-type", "role": "fii"} [hglg11](tag)? 
     - Qual o [dividend yield](f-idx) [da ação]{"entity": "q-type", "role": "stock"} [taee4](tag)?
+    - Como [escolher](choose) boas [acoes](stocks)?
 
 - intent: explanation
   examples: |
     - Posso perder tudo em [ações](stocks)?
-    - É preciso ser [rico](rich) para investir?
+    - É preciso ser [rico](rich) para [investir](invest)?
     - Para que as [bolsas de valores](marketplace) foram criadas?
     - O que constitui a [reserva de emergência](emergency-saving)?
     - [Utilizar](usage) dinheiro da [reserva de emergencia](emergency-saving) é falta de planejamento?
